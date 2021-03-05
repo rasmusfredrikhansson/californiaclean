@@ -84,8 +84,11 @@ a:hover {
 .flexBox2 {
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 40vh;
   border-left: 10px solid black;
+}
+.flexBox2 div {
 }
 .flexBox3 {
   display: flex;
@@ -269,18 +272,19 @@ a:hover {
   padding: 5px 20px;
   background: #fff;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
-  display: none;
 }
 
 .contact-form {
   padding: 20px;
   width: 350px;
-  margin: 0 auto;
   background: white;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
   text-align: center;
   border-radius: 5px;
-  display: none;
+  position: absolute;
+  top: 150px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .contact-form.open {
   display: block;

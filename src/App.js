@@ -95,13 +95,11 @@ const App = () => {
         </div>    
       </div>
 
-      <div className="flexBox2">
-        <div className="flexSpacer"></div>
+      <div className="flexBox2">        
         <div>
           <h2>Regelbunden städning</h2><br/>
           <h1>200kr i timmen</h1>
-        </div>
-        <div className="flexSpacer"></div>
+        </div>       
       </div>     
 
       <div id="stadprofil" className="flexBox">
