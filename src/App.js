@@ -53,7 +53,7 @@ const App = () => {
   
   const openCalendar = (value) => {
 
-    setcalendarOpen(s => !s)
+    setcalendarOpen(open => !open)
     
   }
 
@@ -78,7 +78,6 @@ const App = () => {
 
           <TheCalendar show={calendarOpen} show2={ openCalendar } />
 
-          <ContactForm />
 
         </div>
            
