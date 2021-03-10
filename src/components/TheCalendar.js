@@ -40,7 +40,7 @@ const TheCalendar = props => {
         showNeighboringMonth={true}     
       />      
 
-    <ContactForm show={formOpen} contactDate={date} />
+    
 
       <div className="radio-btn">
         <input onChange={ changeTime } className="radio__input" type="radio" name="time" id="morning" value="morning"></input>
@@ -52,6 +52,7 @@ const TheCalendar = props => {
       <div> 
         <button className="bookNow" onClick={ openForm }>Book now</button>
       </div>
+      <ContactForm show={formOpen} contactDate={date} />
     </div>
   )
 }
