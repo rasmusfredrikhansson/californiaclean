@@ -1,6 +1,7 @@
 .footer {
   display: flex;
-  background-color: rgb(73, 51, 68);
+  background-color: #623f4c;
+  /* 623f4c */
   align-content: space-between;
   color: white;
 
@@ -16,7 +17,7 @@
 }
 .footer ul li,
 .footer ul li strong {
-  font-size: 18px;
+  font-size: 16px;
 }
 .footer ul li a {
   color: white;
@@ -32,27 +33,58 @@ i {
 .drop {
   height: 70px;
   position: absolute;
-  left: 220px;
-  top: -30px;
+  left: 150px;
+  top: -20px;
+}
+
+.fa-map-marker-alt {
+  position: relative;
+  right: 24px;
+  font-size: 18px;
+}
+.fa-phone-alt {
+  position: relative;
+  right: 10px;
+  font-size: 18px;
 }
 
 .services {
   flex-shrink: 0;
-  line-height: 2.12rem;
+}
+ul.services {
+  line-height: 1.65rem;
+}
+.services li:first-child {
+  position: relative;
+  left: 40px;
 }
 .services-headline {
-  margin-bottom: 18px;
+  margin-bottom: 15px;
+}
+.services-headline h3 {
+  font-size: 19px;
 }
 .footer-logo {
   flex-grow: 1;
   text-align: center;
 }
 .footer-logo img {
-  height: 320px;
+  height: 300px;
 }
 
 .contact {
   text-align: right;
+}
+
+ul.contact h3 {
+  margin-bottom: 22px;
+  position: relative;
+  top: 3px;
+  font-size: 19px;
+}
+
+.mailto span {
+  letter-spacing: 1px;
 }
 
 @media only screen and (max-width: 1100px) {
@@ -63,16 +95,18 @@ i {
     padding-top: 40px;
   }
 
+  ul.services {
+    margin-bottom: 40px;
+    margin-top: 30px;
+  }
+  ul.contact {
+    margin-top: 40px;
+  }
+
   .footer > ul {
     padding: 0 45px 0 45px;
   }
   .spacer {
     flex-basis: 0px;
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  .drop {
-    left: 240px;
   }
 }

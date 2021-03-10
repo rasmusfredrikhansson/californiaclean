@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0;
 }
+body {
+  display: block;
+}
 body,
 html {
   margin: 0;
@@ -10,6 +13,7 @@ html {
   font-size: 25px;
   line-height: 1.5rem;
   font-family: "Helvetica";
+  height: 100%;
 }
 
 button {
@@ -22,7 +26,6 @@ h1 {
   line-height: 3rem;
   font-family: "Pacifico", cursive;
   font-weight: 100;
-  margin-bottom: 20px;
 }
 
 a {
@@ -30,10 +33,11 @@ a {
   text-decoration: none;
 }
 a:hover {
-  color: black;
+  color: rgb(255, 23, 110);
 }
 .active {
   text-decoration: underline;
+  color: rgb(255, 23, 110);
 }
 
 .top {
@@ -62,12 +66,28 @@ a:hover {
   animation-delay: 0.5s;
   animation-fill-mode: forwards;
   color: white;
-  margin-right: 50px;
   position: relative;
+}
+.top .intro-message h1 i {
+  font-size: 16px;
+  font-family: "Helvetica";
+  font-weight: 500;
+  background: rgba(255, 255, 255, 0.6);
+  color: rgb(255, 23, 110);
+  margin-left: 10px;
+  border-radius: 5px;
+  padding: 4px;
+  position: relative;
+  bottom: 5px;
+}
+.top .intro-message h1:nth-child(1) {
+  color: #fffd6f;
 }
 
 .top .intro-message h2 {
   background-color: rgb(255, 23, 110);
+  padding: 10px 0;
+  margin-top: 20px;
 }
 
 @keyframes prova {
@@ -86,9 +106,18 @@ a:hover {
   align-items: center;
   justify-content: center;
   height: 40vh;
-  border-left: 10px solid black;
+  background-color: #fffd6f;
+  padding-top: 20px;
 }
-.flexBox2 div {
+.flexBox2 h2 {
+  margin-bottom: 30px;
+}
+.flexBox2 p {
+  font-size: 16px;
+  margin-top: 30px;
+}
+.flexBox2 h1 {
+  line-height: 0.6;
 }
 .flexBox3 {
   display: flex;
@@ -103,14 +132,26 @@ a:hover {
   width: 150px;
 }
 .flexSpacer {
-  flex-basis: 50%;
+  flex-basis: 30%;
 }
 .flexBox4 {
   display: flex;
-  height: auto;
-  align-items: center;
-  justify-content: center;
-  padding-top: 40px;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 40px 40px;
+}
+.flexBox4 ul {
+  list-style: none;
+}
+.flexBox4 li {
+  font-size: 14px;
+}
+.flexBox4 h2 {
+  font-size: 18px;
+}
+.flexBox4 h3 {
+  font-size: 15px;
 }
 
 .flexBox {
@@ -119,6 +160,7 @@ a:hover {
   align-content: space-between;
   align-items: center;
   height: 100vh;
+  width: 100%;
 }
 
 .flexBox img {
@@ -131,6 +173,9 @@ a:hover {
 
 .content-box1 {
   flex-basis: 30%;
+}
+.content-box1 h2 {
+  margin-bottom: 30px;
 }
 
 .box3 {
@@ -152,8 +197,40 @@ a:hover {
 .content-box2 {
   flex-basis: 30%;
 }
+.content-box2 h2 {
+  margin-bottom: 30px;
+}
+.content-box1 .smallprint {
+  font-size: 16px;
+  line-height: 1rem;
+  margin-top: 30px;
+  background-color: rgb(255, 23, 110);
+  padding: 15px;
+  border-radius: 5px;
+  color: white;
+}
+.content-box2 .smallprint {
+  font-size: 16px;
+  line-height: 1rem;
+  margin-top: 30px;
+  background-color: #fffd6d;
+  padding: 15px;
+  border-radius: 5px;
+}
 .box8 {
   flex-basis: 10%;
+}
+
+.sExtras {
+  position: relative;
+  top: 110px;
+}
+
+.sExtras h2 {
+  font-style: italic;
+}
+
+.sExtras h3 {
 }
 
 .color1 {
@@ -192,6 +269,18 @@ a:hover {
 }
 .background5 {
   background-image: url("./img/pic5.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.background6 {
+  background-image: url("./img/pic6.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.background7 {
+  background-image: url("./img/pic7.jpg");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -272,6 +361,7 @@ a:hover {
   padding: 5px 20px;
   background: #fff;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  display: none;
 }
 
 .contact-form {
@@ -285,6 +375,7 @@ a:hover {
   top: 150px;
   left: 50%;
   transform: translateX(-50%);
+  display: none;
 }
 .contact-form.open {
   display: block;
@@ -311,6 +402,7 @@ a:hover {
   background-color: rgb(255, 23, 110);
   color: white;
 }
+
 @media only screen and (max-width: 769px) {
   * {
     font-size: 18px;
@@ -343,10 +435,15 @@ a:hover {
     margin-bottom: 40px;
     order: 2;
   }
+  .top .intro-message h1 i {
+    font-size: 12px;
+  }
 
   .flexBox2 {
-    height: 60vh;
+    height: 65vh;
+    padding-top: 0px;
   }
+
   .flexBox3 {
     padding: 10px;
     height: auto;
@@ -355,6 +452,14 @@ a:hover {
   .flexBox3 div {
     padding: 25px;
     width: 100%;
+  }
+
+  .flexBox4 {
+    display: flex;
+    flex-direction: column;
+  }
+  .flexBox4 ul {
+    margin-bottom: 40px;
   }
 
   .flexBox {
@@ -376,8 +481,18 @@ a:hover {
   .content-box1 {
     padding: 10px;
   }
+  .content-box1 ul {
+    margin-left: 30px;
+    line-height: 1.2rem;
+  }
   .content-box2 {
     padding: 10px;
+  }
+  .content-box1 h2 {
+    margin-bottom: 0px;
+  }
+  .content-box2 h2 {
+    margin-bottom: 0px;
   }
   .box3 {
     display: none;
@@ -397,5 +512,10 @@ a:hover {
   }
   .box8 {
     display: none;
+  }
+
+  .sExtras {
+    top: 0;
+    margin-bottom: 0px;
   }
 }

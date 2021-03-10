@@ -17,6 +17,9 @@ import pic2 from './img/pic2.jpg'
 import pic3 from './img/pic3.jpg'
 import pic4 from './img/pic4.jpg'
 import pic5 from './img/pic5.jpg'
+import pic6 from './img/pic6.jpg'
+import pic7 from './img/pic7.jpg'
+// import broom from './img/broom_icon.png'
 import ContactForm from './components/ContactForm';
 
 
@@ -63,7 +66,7 @@ const App = () => {
 
   return (
     <div>
-      <Top />
+      {/* <Top /> */}
       <Navbar drawerClickHandler={drawerToggleClickHandler}/>
       <SideDrawer show={sideDrawerOpen} />
       {backdrop}   
@@ -72,8 +75,14 @@ const App = () => {
 
         <div className="bookingContainer">
         
-          <div className="intro-message"><h1>{t('Try.1')}<br/>{t('Try.2')}</h1>
-            <div><button className="bookNow" onClick={ openCalendar }>BOOK NOW</button><h2>{t('Try.3')}</h2></div>
+          <div className="intro-message"><h1>{t('Try.1')}<br/>{t('Try.2')}<i>{t('Try.25')}</i></h1>
+          
+            <div>
+              <p style={{ fontSize: '16px'}}>{t('Try.4')}</p>
+            </div>
+            <div>
+              <button className="bookNow" onClick={ openCalendar }>{t('Try.5')}</button><h2>{t('Try.3')}</h2>
+            </div>
           </div>
 
           <TheCalendar show={calendarOpen} show2={ openCalendar } />
@@ -97,33 +106,50 @@ const App = () => {
 
       <div className="flexBox2">        
         <div>
-          <h2>Regelbunden städning</h2><br/>
-          <h1>200kr i timmen</h1>
+          <h2>{t('Pricing.1')}</h2>               
+          <h1>{t('Pricing.2')}</h1>
+          <p>{t('Pricing.3')}</p>
         </div>       
-      </div>     
+      </div>  
 
-      <div id="stadprofil" className="flexBox">
-        <div className="background-box2 background2">
-          <img src={pic2} alt="" />
+      <div id="veckostadning" className="flexBox">
+        <div className="background-box2 background6">
+          <img src={pic6} alt="" />
         </div>
         <div className="box6"></div>
         <div className="content-box2" data-aos="fade-right">
-          <h2>{t('Enjoy.1')}</h2>
-          <p>{t('Enjoy.2')}</p>      
+          <h2>{t('RegularCleaning.1')}</h2>
+          <p>{t('RegularCleaning.2')}</p>
+          <p className="smallprint">{t('RegularCleaning.3')}</p>   
         </div>
         <div className="box8"></div>
-      </div>     
-      
-      <div id="tjanster" className="flexBox">
+      </div>       
+
+      <div id="stadprofil" className="flexBox">
         <div className="box1"></div>
         <div className="content-box1" data-aos="fade-right">
-          <h2>{t('Services.1')}</h2>
-          <p>{t('Services.2')}</p>   
+          <h2>{t('Enjoy.1')}</h2>
+          <p>{t('Enjoy.2')}</p>
+          <p className="smallprint">{t('Enjoy.3')}</p>   
         </div>
         <div className="box3"></div>
         <div className="background-box1 background3">
-          <img src={pic3} alt="" />
+          <img src={pic2} alt="" />
         </div>    
+      </div>     
+      
+      
+      <div id="tjanster" className="flexBox">
+        <div className="background-box2 background6">
+          <img src={pic3} alt="" />
+        </div>
+        <div className="box6"></div>
+        <div className="content-box2" data-aos="fade-right">
+          <h2>{t('Services.1')}</h2>
+          <p>{t('Services.2')}</p> 
+          {/* <p className="smallprint">{t('Services.3')}</p>    */}
+        </div>
+        <div className="box8"></div>
       </div>
 
       <div className="flexBox2">
@@ -133,41 +159,31 @@ const App = () => {
           <p>{t('HowitWorks.2')}</p>
         </div>
         <div className="flexSpacer"></div>
+      </div>     
+
+      <div id="comfortwith" className="flexBox">
+        <div className="box1"></div>
+        <div className="content-box1" data-aos="fade-right">
+          <h2>{t('ComfortWith.1')}</h2>
+          <ul>                        
+            <li>{t('ComfortWith.2')}</li>
+            <li>{t('ComfortWith.3')}</li>
+            <li>{t('ComfortWith.4')}</li>
+            <li>{t('ComfortWith.5')}</li>
+            <li>{t('ComfortWith.6')}</li>
+        </ul>
+        </div>
+        <div className="box3"></div>
+        <div className="background-box1 background4">
+          <img src={pic4} alt="" />
+        </div>    
       </div>
 
       
-
-{/* 
-      <div className="flexBox4"><h1>Vad vi erbjuder</h1></div>
-      <div className="flexBox3">
-        
-        <div>
-          <h2>Veckostädning</h2>
-          <p>Skräddarsydda lösningar till en fast månadskostnad</p>
-        </div>
-        <div>
-          <h2>Storstädning</h2>
-          <p>Få rent överallt, in till minsta vrå</p>
-        </div>
-        <div>
-          <h2>Flyttstädning</h2>
-          <p>När du flyttar så tar vi hand om städningen</p>
-        </div>
-        <div>
-          <h2>Fönsterputs</h2>
-          <p> Våra professionella fönsterputsare gör dina fönster skinande</p>
-        </div>
-        <div>
-          <h2>Köksstädning</h2>
-          <p>Är det extra viktigt att köket är rent så antar vi utmaningen</p>
-        </div>
-        
-      </div> */}
-      
       
       <div id="personal" className="flexBox">
-        <div className="background-box2 background4">
-          <img src={pic4} alt="" />
+        <div className="background-box2 background7">
+          <img src={pic7} alt="" />
         </div>
         <div className="box6"></div>
         <div className="content-box2" data-aos="fade-right">
@@ -188,6 +204,60 @@ const App = () => {
           <img src={pic5} alt="" />
         </div>    
       </div>
+
+      
+      
+
+      
+      <h1 style={{ fontSize: "36px", paddingLeft: "40px", paddingTop: "60px", marginLeft: "15px" }}>{t('Included.01')}</h1>
+      <div className="flexBox4" style={{ marginBottom: "80px" }}>
+        <div className="flexSpacer20"></div>
+        <ul>
+          <h2>{t('Included.10')}</h2>
+          <li>{t('Included.11')}</li>
+          <li>{t('Included.12')}</li>
+          <li>{t('Included.13')}</li>                            
+          <li>{t('Included.14')}</li>
+          <li>{t('Included.15')}</li>
+          <li>{t('Included.16')}s</li>
+          <li>{t('Included.17')}</li>                            
+          <li>{t('Included.18')}</li>
+      </ul>
+
+      <ul>
+          <h2>{t('Included.20')}</h2>
+          <li>{t('Included.21')}</li>
+          <li>{t('Included.22')}</li>
+          <li>{t('Included.23')}</li>
+          <li>{t('Included.24')}</li>
+          <li>{t('Included.25')}</li>
+          <li>{t('Included.26')}</li>
+          <li>{t('Included.27')}</li>
+          <li>{t('Included.28')}</li>
+      </ul>
+
+      <ul>
+          <h2>{t('Included.30')}</h2>
+          <li>{t('Included.31')}</li>
+          <li>{t('Included.32')}</li>
+          <li>{t('Included.33')}</li>
+          <li>{t('Included.34')}</li>                            
+          <li>{t('Included.35')}</li>
+          <li>{t('Included.36')}</li>
+          <li>{t('Included.37')}</li>                       
+          <li>{t('Included.38')}</li>
+      </ul>                    
+
+      <ul className="sExtras">
+          <h2>{t('Included.40')}</h2>
+          <h3>{t('Included.41')}</h3>
+          <li>{t('Included.42')}</li>
+          <li>{t('Included.43')}</li>                        
+          <li>{t('Included.44')}</li> 
+          <li>{t('Included.45')}</li>                 
+      </ul>
+      <div className="flexSpacer20"></div>
+    </div>
       
       <Footer />
       
