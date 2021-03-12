@@ -218,7 +218,7 @@ const App = () => {
           <li>{t('Included.13')}</li>                            
           <li>{t('Included.14')}</li>
           <li>{t('Included.15')}</li>
-          <li>{t('Included.16')}s</li>
+          <li>{t('Included.16')}</li>
           <li>{t('Included.17')}</li>                            
           <li>{t('Included.18')}</li>
       </ul>
