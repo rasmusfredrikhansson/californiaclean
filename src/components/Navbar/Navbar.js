@@ -40,7 +40,7 @@ const Navbar = props => {
           <li><Link to="stadprofil" activeClass="active" smooth={true} duration={300} spy={true} offset={-80}>{t('HomeCleaning.2')}</Link></li>
           <li><Link to="tjanster" activeClass="active" smooth={true} duration={300} spy={true} offset={-80}>{t('HomeCleaning.3')}</Link></li>
           {/* <li><Link to="komfort" activeClass="active" smooth={true} duration={300} spy={true} offset={-80}>{t('HomeCleaning.5')}</Link></li> */}
-          <li><Link to="personal" activeClass="active" smooth={true} duration={300} spy={true} offset={-80}>{t('HomeCleaning.4')}</Link></li>
+          {/* <li><Link to="personal" activeClass="active" smooth={true} duration={300} spy={true} offset={-80}>{t('HomeCleaning.4')}</Link></li> */}
           <li><Link to="omoss" activeClass="active" smooth={true} duration={300} spy={true} offset={-80}>{t('HomeCleaning.5')}</Link></li>
         </ul>
         <Toggle toggled={toggled} onClick={toggleClickHandler} />

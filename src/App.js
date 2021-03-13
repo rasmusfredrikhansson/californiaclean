@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar/Navbar'
 import SideDrawer from './components/SideDrawer/SideDrawer'
 import Backdrop from './components/Backdrop/Backdrop'
-import Top from './components/Top'
+// import Top from './components/Top'
 import Footer from './components/Footer'
 import { useTranslation } from 'react-i18next'
 import TheCalendar from './components/TheCalendar'
@@ -19,9 +19,6 @@ import pic4 from './img/pic4.jpg'
 import pic5 from './img/pic5.jpg'
 import pic6 from './img/pic6.jpg'
 import pic7 from './img/pic7.jpg'
-// import broom from './img/broom_icon.png'
-import ContactForm from './components/ContactForm';
-
 
 const App = () => {
 
@@ -40,14 +37,16 @@ const App = () => {
   const backdropClickHandler = () => {
     setsideDrawerOpen(false)
     setcalendarOpen(false)
+    // Also close the contact form when user clicks elsewhere
   }
 
+  
   let backdrop
-
   if (sideDrawerOpen || calendarOpen) {
     backdrop = <Backdrop click={backdropClickHandler}/>
   }
 
+  // Initialize scroll animations
   useEffect(() => {
     Aos.init({
       
@@ -55,14 +54,10 @@ const App = () => {
   }, []);  
   
   const openCalendar = (value) => {
-
-    setcalendarOpen(open => !open)
-    
+    setcalendarOpen(open => !open)    
   }
 
   const { t, i18n } = useTranslation()
-
-
 
   return (
     <div>
@@ -85,7 +80,7 @@ const App = () => {
             </div>
           </div>
 
-          <TheCalendar show={calendarOpen} show2={ openCalendar } />
+          <TheCalendar show={calendarOpen} />
 
 
         </div>
@@ -133,14 +128,14 @@ const App = () => {
         </div>
         <div className="box3"></div>
         <div className="background-box1 background3">
-          <img src={pic2} alt="" />
+          <img src={pic3} alt="" />
         </div>    
       </div>     
       
       
       <div id="tjanster" className="flexBox">
-        <div className="background-box2 background6">
-          <img src={pic3} alt="" />
+        <div className="background-box2 background2">
+          <img src={pic2} alt="" />
         </div>
         <div className="box6"></div>
         <div className="content-box2" data-aos="fade-right">

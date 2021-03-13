@@ -8,6 +8,8 @@ const TheCalendar = props => {
   const [time, setTime] = useState()
   const [calendarClose, setCalendarClose] = useState(false)
   const [formOpen, setFormOpen] = useState(false)
+
+  let minDate = new Date()
   
   
   const onCalendarChange = date => {
@@ -39,7 +41,8 @@ const TheCalendar = props => {
         <Calendar
           onChange={onCalendarChange} 
           value={date} 
-          showNeighboringMonth={true}     
+          showNeighboringMonth={true}
+          minDate={minDate}    
         />      
 
       
@@ -56,7 +59,7 @@ const TheCalendar = props => {
         </div>
         
       </div>
-    <ContactForm show={formOpen} contactDate={date} />
+    <ContactForm show={formOpen} contactDate={date} contactTime={time} />
     </div>
   )
 }
