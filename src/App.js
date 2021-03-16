@@ -79,7 +79,7 @@ const App = () => {
             </div>
             <div>
               {/* <button className="bookNow" onClick={ openCalendar }>{t('Try.5')}</button> */}
-              <h2>{t('Try.3')}</h2>
+              <a href="tel:0728692123"><h2>{t('Try.3')}</h2></a>
             </div>
           </div>
 

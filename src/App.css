@@ -84,6 +84,10 @@ a:hover {
   color: #fffd6f;
 }
 
+.top .intro-message a h2 {
+  color: white;
+}
+
 .top .intro-message h2 {
   background-color: rgb(255, 23, 110);
   padding: 10px 10px;
@@ -442,6 +446,12 @@ a:hover {
 @media only screen and (max-width: 769px) {
   * {
     font-size: 18px;
+  }
+
+  .top {    
+    background-position: 75% 75%; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
   }
 
   .alert {
