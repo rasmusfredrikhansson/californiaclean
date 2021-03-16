@@ -19,6 +19,8 @@ import pic4 from './img/pic4.jpg'
 import pic5 from './img/pic5.jpg'
 import pic6 from './img/pic6.jpg'
 import pic7 from './img/pic7.jpg'
+import pic8 from './img/pic8.jpg'
+import pic9 from './img/pic9.jpg'
 
 const App = () => {
 
@@ -76,7 +78,8 @@ const App = () => {
               <p style={{ fontSize: '16px'}}>{t('Try.4')}</p>
             </div>
             <div>
-              <button className="bookNow" onClick={ openCalendar }>{t('Try.5')}</button><h2>{t('Try.3')}</h2>
+              {/* <button className="bookNow" onClick={ openCalendar }>{t('Try.5')}</button> */}
+              <h2>{t('Try.3')}</h2>
             </div>
           </div>
 
@@ -98,7 +101,7 @@ const App = () => {
         </div>    
       </div>
 
-      <div className="flexBox2">        
+      <div className="flexBox5">        
         <div>
           <h2>{t('Pricing.1')}</h2>               
           <h1>{t('Pricing.2')}</h1>
@@ -134,8 +137,8 @@ const App = () => {
       
       
       <div id="tjanster" className="flexBox">
-        <div className="background-box2 background2">
-          <img src={pic2} alt="" />
+        <div className="background-box2 background9">
+          <img src={pic9} alt="" />
         </div>
         <div className="box6"></div>
         <div className="content-box2" data-aos="fade-right">
@@ -150,7 +153,7 @@ const App = () => {
         <div className="flexSpacer"></div>
         <div>
           <h2>{t('HowitWorks.1')}</h2>
-          <p>{t('HowitWorks.2')}</p>
+          <p>{t('HowitWorks.2')}<strong>{t('HowitWorks.3')}</strong>{t('HowitWorks.4')}</p>
         </div>
         <div className="flexSpacer"></div>
       </div>     
@@ -176,8 +179,8 @@ const App = () => {
       
       
       <div id="personal" className="flexBox">
-        <div className="background-box2 background7">
-          <img src={pic7} alt="" />
+        <div className="background-box2 background8">
+          <img src={pic8} alt="" />
         </div>
         <div className="box6"></div>
         <div className="content-box2" data-aos="fade-right">
@@ -191,16 +194,14 @@ const App = () => {
         <div className="box1"></div>
         <div className="content-box1" data-aos="fade-right">
           <h2>{t('About.1')}</h2>
-          <p>{t('About.2')}</p>   
+          <p>{t('About.2')}</p>  
+          <p className="smallprint">{t('About.3')}<br/>{t('About.4')}<br/><br/>{t('About.5')}</p> 
         </div>
         <div className="box3"></div>
         <div className="background-box1 background5">
           <img src={pic5} alt="" />
         </div>    
-      </div>
-
-      
-      
+      </div>  
 
       
       <h1 style={{ fontSize: "36px", paddingLeft: "40px", paddingTop: "60px", marginLeft: "15px" }}>{t('Included.01')}</h1>
@@ -248,7 +249,8 @@ const App = () => {
           <li>{t('Included.42')}</li>
           <li>{t('Included.43')}</li>                        
           <li>{t('Included.44')}</li> 
-          <li>{t('Included.45')}</li>                 
+          <li>{t('Included.45')}</li>
+          <li>{t('Included.46')}</li>                   
       </ul>
       <div className="flexSpacer20"></div>
     </div>

@@ -43,10 +43,14 @@ nav ul {
   align-items: center;
 }
 nav li {
-  margin: 0 20px 0 20px;
+  margin: 0 22px 0 22px;
   flex-shrink: 0;
   cursor: pointer;
-  font-size: 22px;
+  font-size: 20px;
+}
+
+.navbarSpacer {
+  flex-grow: 1;
 }
 
 @media (max-width: 1300px) {

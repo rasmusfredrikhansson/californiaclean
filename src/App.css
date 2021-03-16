@@ -86,8 +86,9 @@ a:hover {
 
 .top .intro-message h2 {
   background-color: rgb(255, 23, 110);
-  padding: 10px 0;
+  padding: 10px 10px;
   margin-top: 20px;
+  display: inline-block;
 }
 
 @keyframes prova {
@@ -99,6 +100,25 @@ a:hover {
     opacity: 1;
     transform: translateY(0px);
   }
+}
+
+.flexBox5 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+  background-color: #fffd6f;
+  padding-top: 20px;
+}
+.flexBox5 h2 {
+  margin-bottom: 30px;
+}
+.flexBox5 p {
+  font-size: 17px;
+  margin-top: 30px;
+}
+.flexBox5 h1 {
+  line-height: 0.6;
 }
 
 .flexBox2 {
@@ -113,7 +133,7 @@ a:hover {
   margin-bottom: 30px;
 }
 .flexBox2 p {
-  font-size: 16px;
+  font-size: 17px;
   margin-top: 30px;
 }
 .flexBox2 h1 {
@@ -176,6 +196,7 @@ a:hover {
 }
 .content-box1 h2 {
   margin-bottom: 30px;
+  line-height: 1.9rem;
 }
 
 .box3 {
@@ -207,8 +228,9 @@ a:hover {
   background-color: rgb(255, 23, 110);
   padding: 15px;
   border-radius: 5px;
-  color: white;
+  color: #fffd6f;
 }
+
 .content-box2 .smallprint {
   font-size: 16px;
   line-height: 1rem;
@@ -223,7 +245,7 @@ a:hover {
 
 .sExtras {
   position: relative;
-  top: 110px;
+  top: 74px;
 }
 
 .sExtras h2 {
@@ -281,6 +303,18 @@ a:hover {
 }
 .background7 {
   background-image: url("./img/pic7.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.background8 {
+  background-image: url("./img/pic8.jpg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+.background9 {
+  background-image: url("./img/pic9.jpg");
   background-position: center; /* Center the image */
   background-repeat: no-repeat; /* Do not repeat the image */
   background-size: cover; /* Resize the background image to cover the entire container */
@@ -441,7 +475,12 @@ a:hover {
   }
 
   .flexBox2 {
-    height: 65vh;
+    height: 70vh;
+    padding-top: 0px;
+  }
+
+  .flexBox5 {
+    height: 40vh;
     padding-top: 0px;
   }
 
@@ -458,6 +497,7 @@ a:hover {
   .flexBox4 {
     display: flex;
     flex-direction: column;
+    margin-bottom: 0 !important;
   }
   .flexBox4 ul {
     margin-bottom: 40px;

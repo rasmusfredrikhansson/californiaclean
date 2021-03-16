@@ -34,6 +34,7 @@ const Navbar = props => {
             <img className="logo" src={logo} alt="California Clean"/>
             California Clean</h4>
         </div>
+        <div className="navbarSpacer"></div>
         <ul className="navigation">
           <li><Link to="hemstadning" activeClass="active" smooth={true} duration={300} spy={true} offset={-80}>{t('HomeCleaning.1')}</Link></li>
           {/* <li><Link to="veckostadning" activeClass="active" smooth={true} duration={300} spy={true} offset={-80}>{t('HomeCleaning.2')}</Link></li> */}

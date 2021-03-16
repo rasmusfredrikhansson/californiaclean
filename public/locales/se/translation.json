@@ -11,7 +11,7 @@
   },
   "Try": {
     "1": "Boka Vårstädning idag",
-    "2": "för 100kr i timmen",
+    "2": "100kr i timmen",
     "25": "Efter RUT avdrag",
     "3": "Ring oss på 072-869 21 23",
     "4": "Erbjudandet gäller de sju första timmarna",
@@ -19,7 +19,7 @@
   },
   "WhyHomeCleaning": {
     "1": "Varför hemstädning?",
-    "2": "Vi tror att moderna människor och familjer behöver städhjälp för att hinna med det där lilla extra i vardagen. Att komma hem till ett professionellt städat hem är en upplevelse som känns bra. Smuts, damm och bakterier blir borttagna på de där ytor som du inte har tid för eller har svårt att komma åt. Vi har erfarenheten av att göra städjobb av god kvalitet på ett snabbt och säkert sätt."
+    "2": "Vi tror att moderna människor och familjer behöver städhjälp för att hinna med det där lilla extra i vardagen. Att komma till ett professionellt städat hem är en upplevelse som känns bra. Smuts, damm och bakterier blir borttagna på de där ytor som du inte har tid för eller har svårt att komma åt. Vi har erfarenheten av att göra städjobb av god kvalitet på ett snabbt och säkert sätt."
   },
   "Pricing": {
     "1": "Regelbunden Städning",
@@ -28,7 +28,9 @@
   },
   "HowitWorks": {
     "1": "Hur funkar det?",
-    "2": "Vi gör det enkelt för dig. Du ringer oss på 072-869 21 23 och vi bokar tid där vi träffas och går igenom din städprofil. Därefter är vi redo att börja med Första Gångs Städning städa på utsatt datum. Vår städpersonal besöker dig regelbundet på samma tid och samma dag som är noterat i din Städprofil. Vid varje besök lämnar vi ditt hem skinande, fräscht och rent."
+    "2": "Vi gör det enkelt för dig. Du ringer oss på ",
+    "3": "072-869 21 23",
+    "4": " och vi bokar tid där vi träffas och går igenom din städprofil. Därefter är vi redo att börja med Första Gångs Städningen på utsatt datum. Vår städpersonal besöker dig regelbundet på samma tid och samma dag som är noterat i din Städprofil. Vid varje besök lämnar vi ditt hem skinande, fräscht och rent."
   },
   "Enjoy": {
     "1": "Vi städar, du njuter!",
@@ -37,20 +39,23 @@
   },
   "Services": {
     "1": "Tjänster",
-    "2": "Våra professionella städare har utbildning inom Första-gångs-städning, storstädning, fönsterputs, köks och badrumsstädning, samt flyttstädning. I princip så täcker vi alla dina städbehov hemma och är det något som inte är standard går det alltid att lägga till extra tjänster."
+    "2": "Våra professionella California Clean medarbetare har utbildning inom modern städteknik. Vi är främst inom tjänster från regelbunden städning, storstädning, fönsterputs, köks och badrumsstädning, samt flyttstädning och renoveringsstädning. I princip så täcker vi alla dina städbehov hemma och är det något som inte är standard som t.ex tvätt eller strykning så går det alltid att lägga till extra tjänster."
   },
   "Work": {
     "1": "Personalutbildning",
-    "2": "Vill du jobba med California Clean? Vi tränar personal i profesionell städning. Alla medarbetare genomgår en omfattande utbildning med allt från materialkunskap och möbelvård till användning av städprodukter klädvård och specialutrustning."
+    "2": "Vill du jobba med California Clean, vänligen kontakta oss. Vi tränar personal i profesionell städning och tjänster. Alla medarbetare genomgår en omfattande utbildning med allt från materialkunskap och möbelvård till användning av städprodukter klädvård och specialutrustning."
   },
   "RegularCleaning": {
     "1": "Veckostädning",
     "2": "Veckostädning är ett utmärkt sätt att hålla hemmet snyggt och fräscht. Vi fokuserar på det som är unikt för varje bostad och anpassar städningen efter möbler, inredning och andra detaljer i hemmet.",
-    "3": "Veckostädning kan göras en gång i veckan, varannan vecka eller en gång i månaden."
+    "3": "Veckostädning kan göras en gång i veckan, varannan vecka, var tredje vecka eller en gång i månaden."
   },
   "About": {
     "1": "Om Oss",
-    "2": "California Clean etablerades 1996 i Californien och drevs framgångsrikt i 10 soliga år ;) Senare flyttade vi till Nederländerna och Belgien och nu är vi stadgade i Sverige."
+    "2": "California Clean etablerades 1996 i Orange & Los Angeles County, Kalifornien och drevs framgångsrikt i 10 soliga år ;) Senare flyttade vi till Nederländerna och Belgien och nu är vi stadgade i Sverige.",
+    "3": "Vi arbeterar runt Stockholmsområdet i följande städer:",
+    "4": "BROMMA, STOCKHOLM CITY & LIDINGÖ, TÄBY, DANDERYD, SOLNA, SUNDBYBERG, SOLLENTUNA, ENSKEDE & NACKA.",
+    "5": "Om du inte hittar din plats här, vänligen ring oss för att se om vi kan tillmötesgå er."
   },
   "ComfortWith": {
     "1": "Vi ger dig komfort med:",
@@ -58,20 +63,20 @@
     "3": "Samma person vid varje tillfälle",
     "4": "Kontrakt mellan utförare och kund",
     "5": "Försäkring finns på plats av utförare (olycksförsäkring)",
-    "6": "Flexibilitet att avboka eller senarelägga ett städtillfälle"
+    "6": "Flexibilitet att avboka eller senarelägga ett städtillfälle 48 timmar innan"
   },
   "Included": {
     "01": "Vad ingår i tjänsterna",
-    "10": "Kök",
+    "10": "KÖK",
     "11": "Tvätt av handfat",
     "12": "Ugnen utanpå",
     "13": "Tvätt av spis",   
     "14": "Kylskåp toppen och framsidan",
-    "15": "Köksluckor utanpå",
+    "15": "Fingeravtryck på köksluckor",
     "16": "Bänkskivor och köksapparater",
     "17": "Mikrovågsugn insidan och utsidan",
     "18": "Golv (dammsugs och tvättas)",
-    "20": "Badrum",
+    "20": "BADRUM",
     "21": "Badkar",
     "22": "Klinkers",
     "23": "Toallett",
@@ -80,21 +85,22 @@
     "26": "Vanity Tops",
     "27": "Handfat",
     "28": "Golv (dammsugs och tvättas)",
-    "30": "Rum",
+    "30": "RUM",
     "31": "Polera speglar",
     "32": "Avlägsna spindelnät",
-    "33": "Avlägsning av fingeravtryck från lampknappar",
+    "33": "Fingeravtryck från lampknappar",
     "34": "Dammsugning av soffor och stolar",
     "35": "Avlägsning av fingeravtryck från dörrar",
-    "36": "Fönsterbrädor",
+    "36": "Fönsterbrädor och Golvlister",
     "37": "Avdamming av Möbler och Persienner",
     "38": "Golv (dammsugs och tvättas)",
     "40": "TILLÄGGSTJÄNSTER",
     "41": "EXTRA KOSTNAD TILLKOMMER",
-    "42": "Insidan av ugnen",
-    "43": "Fönstertvätt",
-    "44": "Insidan av köksskåp",
-    "45": "Insidan av kyl och frys"
+    "42": "Stryk och tvätt",
+    "43": "Insidan av ugnen",
+    "44": "Fönstertvätt",
+    "45": "Insidan av köksskåp",
+    "46": "Insidan av kyl och frys"
   },
   "FooterServices": {
     "1": "TJÄNSTER",

@@ -39,12 +39,12 @@ i {
 
 .fa-map-marker-alt {
   position: relative;
-  right: 24px;
+  right: 7px;
   font-size: 18px;
 }
 .fa-phone-alt {
   position: relative;
-  right: 10px;
+  right: 5px;
   font-size: 18px;
 }
 
@@ -96,7 +96,7 @@ ul.contact h3 {
   }
 
   ul.services {
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     margin-top: 30px;
   }
   ul.contact {
