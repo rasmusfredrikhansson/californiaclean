@@ -205,7 +205,7 @@ const App = () => {
 
       
       <h1 style={{ fontSize: "36px", paddingLeft: "40px", paddingTop: "60px", marginLeft: "15px" }}>{t('Included.01')}</h1>
-      <div className="flexBox4" style={{ marginBottom: "80px" }}>
+      <div data-aos="fade-right" className="flexBox4" style={{ marginBottom: "80px" }}>
         <div className="flexSpacer20"></div>
         <ul>
           <h2>{t('Included.10')}</h2>
