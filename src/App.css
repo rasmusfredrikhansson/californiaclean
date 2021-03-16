@@ -226,6 +226,11 @@ a:hover {
 .content-box2 h2 {
   margin-bottom: 30px;
 }
+.smallprint i {
+  font-family: 'Pacifico', cursive;
+  font-size: 26px;
+  line-height: 2.4rem;
+}
 .content-box1 .smallprint {
   font-size: 16px;
   line-height: 1rem;
@@ -448,7 +453,7 @@ a:hover {
     font-size: 18px;
   }
 
-  .top {    
+  .top {       
     background-position: 75% 75%; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
@@ -566,8 +571,14 @@ a:hover {
     display: none;
   }
 
+  .smallprint i {
+    font-size: 21px;    
+  }
+
   .sExtras {
     top: 0;
     margin-bottom: 0px;
   }
 }
+
+

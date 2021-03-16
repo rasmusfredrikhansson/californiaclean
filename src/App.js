@@ -195,7 +195,7 @@ const App = () => {
         <div className="content-box1" data-aos="fade-right">
           <h2>{t('About.1')}</h2>
           <p>{t('About.2')}</p>  
-          <p className="smallprint">{t('About.3')}<br/>{t('About.4')}<br/><br/>{t('About.5')}</p> 
+          <p className="smallprint"><i>{t('About.3')}</i><br/>{t('About.4')}<br/><br/>{t('About.5')}</p> 
         </div>
         <div className="box3"></div>
         <div className="background-box1 background5">
