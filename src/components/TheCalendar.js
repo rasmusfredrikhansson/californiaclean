@@ -1,7 +1,8 @@
-import React, {useState} from 'react'
+import React, {useState, useEffect, useRef} from 'react'
 import Calendar from 'react-calendar'
-import 'react-calendar/dist/Calendar.css';
-import ContactForm from './ContactForm';
+import 'react-calendar/dist/Calendar.css'
+import ContactForm from './ContactForm'
+
 
 const TheCalendar = props => {
   const [date, setDate] = useState(new Date())
@@ -14,7 +15,7 @@ const TheCalendar = props => {
   
   const onCalendarChange = date => {
     setDate(date)
-    console.log (date)
+    console.log(date)
   }
   
   let calendarClasses = ['calendar']
@@ -27,7 +28,7 @@ const TheCalendar = props => {
   }
 
   const openForm = () => {
-    setFormOpen(open => !open)  
+    setFormOpen(open => !open)
     setCalendarClose(true)
   }
 
@@ -35,33 +36,57 @@ const TheCalendar = props => {
     setTime(value)
   }
 
-  return (
-    <div>
-      <div className={calendarClasses}>
-        <Calendar
-          onChange={onCalendarChange} 
-          value={date} 
-          showNeighboringMonth={true}
-          minDate={minDate}    
-        />      
+// close the contact form when user clicks elsewhere
 
-      
+  const node = useRef();
+  
+  const handleClick = e => {
+  if (node.current.contains(e.target)) {
+    // inside click
+    return;
+  }
+    setFormOpen(false);
+};
+
+
+  useEffect(() => {
+  if (formOpen){
+    document.addEventListener("mousedown", handleClick);
+  } else {
+    document.removeEventListener("mousedown", handleClick);
+  }
+    
+  return () => {
+    document.removeEventListener("mousedown", handleClick);
+  };
+  }, [formOpen]);
+  
+
+
+  return (
+    <div ref={node}>
+    
+      <div  className={calendarClasses}>
+        <Calendar
+          onChange={onCalendarChange}
+          value={date}
+          showNeighboringMonth={true}
+          minDate={minDate}
+        />
 
         <div className="radio-btn">
-          <input onChange={ changeTime } className="radio__input" type="radio" name="time" id="morning" value="morning"></input>
+          <input onChange={changeTime} className="radio__input" type="radio" name="time" id="morning" value="morning"></input>
           <label className="radio__label" htmlFor="morning">Morning</label>
-          <input onChange={ changeTime } className="radio__input" type="radio" name="time" id="afternoon" value="afternoon"></input>
+          <input onChange={changeTime} className="radio__input" type="radio" name="time" id="afternoon" value="afternoon"></input>
           <label className="radio__label" htmlFor="afternoon">Afternoon</label>
         </div>
-
-        <div> 
-          <button className="bookNow" onClick={ openForm }>Book now</button>
+        <div>
+          <button className="bookNow" onClick={openForm}>Book now</button>
         </div>
-        
       </div>
-    <ContactForm show={formOpen} contactDate={date} contactTime={time} />
-    </div>
+      <ContactForm show={formOpen} contactDate={date} contactTime={time}  />
+      </div>
   )
-}
+}   
 
 export default TheCalendar

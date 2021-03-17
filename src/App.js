@@ -27,6 +27,7 @@ const App = () => {
   const [calendarOpen, setcalendarOpen] = useState(false) 
   const [time, setTime] = useState() 
   const [sideDrawerOpen, setsideDrawerOpen] = useState(false)  
+  
 
   let contactFormClassses = [ 'contact-form' ]
 
@@ -39,10 +40,8 @@ const App = () => {
   const backdropClickHandler = () => {
     setsideDrawerOpen(false)
     setcalendarOpen(false)
-    // Also close the contact form when user clicks elsewhere
   }
 
-  
   let backdrop
   if (sideDrawerOpen || calendarOpen) {
     backdrop = <Backdrop click={backdropClickHandler}/>
@@ -78,12 +77,12 @@ const App = () => {
               <p style={{ fontSize: '16px'}}>{t('Try.4')}</p>
             </div>
             <div>
-              {/* <button className="bookNow" onClick={ openCalendar }>{t('Try.5')}</button> */}
-              <a href="tel:0728692123"><h2>{t('Try.3')}</h2></a>
+                <button className="bookNow" onClick={openCalendar}>{t('Try.5')}</button>
             </div>
+            <h2>{t('Try.3')}</h2>
           </div>
 
-          <TheCalendar show={calendarOpen} />
+          <TheCalendar show={calendarOpen} click={backdropClickHandler} />
 
 
         </div>
@@ -195,7 +194,7 @@ const App = () => {
         <div className="content-box1" data-aos="fade-right">
           <h2>{t('About.1')}</h2>
           <p>{t('About.2')}</p>  
-          <p className="smallprint"><i>{t('About.3')}</i><br/>{t('About.4')}<br/><br/>{t('About.5')}</p> 
+          <p className="smallprint">{t('About.3')}<br/>{t('About.4')}<br/><br/>{t('About.5')}</p> 
         </div>
         <div className="box3"></div>
         <div className="background-box1 background5">
