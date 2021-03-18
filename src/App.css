@@ -687,4 +687,10 @@ h2.whatsincluded {
     margin-left: 40px;
     line-height: 1rem;
   }
+  .fa-facebook {
+    font-size: 60px;
+  }
+  .fa-instagram-square {
+    font-size: 60px;
+  }
 }
