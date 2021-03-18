@@ -139,7 +139,7 @@ a:hover {
 }
 .flexBox2 p {
   font-size: 17px;
-  margin-top: 30px;
+  margin-top: 0px;
 }
 .flexBox2 h1 {
   line-height: 0.6;
@@ -227,14 +227,15 @@ a:hover {
   margin-bottom: 30px;
 }
 .smallprint i {
-  font-family: 'Pacifico', cursive;
+  font-family: "Pacifico", cursive;
   font-size: 26px;
   line-height: 2.4rem;
 }
 .content-box1 .smallprint {
   font-size: 16px;
   line-height: 1rem;
-  margin-top: 30px;
+  margin-top: 15px;
+  margin-bottom: 5px;
   background-color: rgb(255, 23, 110);
   padding: 15px;
   border-radius: 5px;
@@ -244,7 +245,8 @@ a:hover {
 .content-box2 .smallprint {
   font-size: 16px;
   line-height: 1rem;
-  margin-top: 30px;
+  margin-top: 15px;
+  margin-bottom: 5px;
   background-color: #fffd6d;
   padding: 15px;
   border-radius: 5px;
@@ -453,7 +455,7 @@ a:hover {
     font-size: 18px;
   }
 
-  .top {       
+  .top {
     background-position: 75% 75%; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
@@ -469,10 +471,11 @@ a:hover {
   }
 
   .top h1 {
-    font-size: 24px;
-    line-height: 1.6rem;
+    font-size: 30px;
+    line-height: 2rem;
     margin-bottom: 10px;
     margin-top: 10px;
+    padding: 20px;
   }
 
   .top {
@@ -483,21 +486,61 @@ a:hover {
 
   .top .intro-message {
     margin-right: 0;
-    margin-bottom: 40px;
+    margin-bottom: 80px;
     order: 2;
   }
   .top .intro-message h1 i {
-    font-size: 12px;
+    font-size: 14px;
+  }
+  .top .intro-message p {
+  }
+  .top .intro-message .telephone-number {
+    margin-top: 40px;
+  }
+  .top .intro-message .telephone-number h2 {
+    margin-top: 40px;
+  }
+  .top .intro-message div {
+    position: relative;
+    bottom: 30px;
+  }
+
+  .top .intro-message h2 {
+    padding: 0px 10px;
+    margin-top: 20px;
+    display: inline-block;
+    position: relative;
+    bottom: 40px;
   }
 
   .flexBox2 {
     height: 70vh;
     padding-top: 0px;
   }
+  .flexBox2 p {
+    line-height: 1.1rem;
+  }
+  .flexBox2 h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+  }
 
   .flexBox5 {
     height: 40vh;
     padding-top: 0px;
+  }
+  .flexBox5 h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .flexBox5 h1 {
+    font-size: 35px;
+  }
+
+  .flexBox5 p {
+    font-size: 12px;
+    margin-top: 20px;
   }
 
   .flexBox3 {
@@ -514,9 +557,18 @@ a:hover {
     display: flex;
     flex-direction: column;
     margin-bottom: 0 !important;
+    padding: 20px 40px;
   }
   .flexBox4 ul {
     margin-bottom: 40px;
+    line-height: 1rem;
+  }
+  .flexBox4 ul h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .flexBox4 li {
+    font-size: 13px;
   }
 
   .flexBox {
@@ -536,21 +588,35 @@ a:hover {
     display: none;
   }
   .content-box1 {
-    padding: 10px;
+    padding: 10px 10px 10px 15px;
   }
   .content-box1 ul {
-    margin-left: 30px;
-    line-height: 1.2rem;
+    margin-left: 18px;
+    line-height: 1.1rem;
+  }
+  .content-box1 ul li {
+    font-size: 16px;
   }
   .content-box2 {
-    padding: 10px;
+    padding: 10px 10px 10px 15px;
   }
   .content-box1 h2 {
-    margin-bottom: 0px;
+    font-size: 28px;
+    margin-top: 50px;
+    margin-bottom: 5px;
+  }
+  .content-box1 p {
+    line-height: 1.1rem;
   }
   .content-box2 h2 {
-    margin-bottom: 0px;
+    font-size: 28px;
+    margin-top: 50px;
+    margin-bottom: 10px;
   }
+  .content-box2 p {
+    line-height: 1.1rem;
+  }
+
   .box3 {
     display: none;
   }
@@ -570,9 +636,12 @@ a:hover {
   .box8 {
     display: none;
   }
+  .smallprint {
+    margin-bottom: 0px;
+  }
 
   .smallprint i {
-    font-size: 21px;    
+    font-size: 21.4px;
   }
 
   .sExtras {
@@ -580,5 +649,3 @@ a:hover {
     margin-bottom: 0px;
   }
 }
-
-

@@ -6,12 +6,12 @@
     "1": "Home Cleaning",    
     "2": "Cleaning Profile",
     "3": "Services",    
-    "4": "Work",
+    "4": "Work with us",
     "5": "About Us"    
   },  
   "Try": {
-    "1": "Book Spring Cleaning Today",
-    "2": "100kr per hour",
+    "1": "Book Spring Cleaning",
+    "2": "Today 100kr per hour",
     "25": "After RUT deduction",
     "3": "Call us at 072-869 21 23",
     "4": "This offer is valid for the first seven hours",
@@ -21,7 +21,7 @@
     "1": "How does it work?",
     "2": "We make it easy for you. You simply call us at",
     "3": " 072-869 21 23 ",
-    "4": "and we book a time where we meet and create your new Home Cleaning Profile. After that, we are ready to start with the First Time Cleaning at the specified date. Our crew visits you regularly at the same time and same day as noted in your Cleaning Profile. At every visit we make your home shiny, fresh, and clean."
+    "4": "and we book a time where we meet and create your Home Cleaning Profile. After that, we are ready to start with the first time cleaning at the specified date. Our crew member then visits you regularly at the same day and same time as noted in your new Cleaning Profile."
   },
   "WhyHomeCleaning": {
     "1": "Home cleaning",
@@ -46,9 +46,9 @@
     "2": "Want to work with California Clean, you are welcome to contact us. We train personell in professional cleaning and services. All our staff members will go through a rigorous training with everything from material knowledge and furniture care to the use of cleaning products, clothing care and special equipment."
   },
   "RegularCleaning": {
-    "1": "Regular Cleaning",
-    "2": "Regular cleaning is the best way to keep your home nice, fresh & clean. We focus on what's unique about every home and customize the cleaning based on furniture, decorations and other details.",
-    "3": "Regular cleaning can be performed every week, every two weeks, every three weeks, or on a monthly basis."
+    "1": "Weekly Cleaning",
+    "2": "Regular cleaning is the best way to keep your home nice & fresh. We focus on what's unique about every home and customize the cleaning based on furniture, decorations and other details.",
+    "3": "Can be performed every week, every two weeks, every three weeks or every fourth week."
   },
   "About": {
     "1": "About us",
@@ -58,7 +58,7 @@
     "5": "If you can't find your location here, just give us a call and we'll do our best to accomodate you."
   },
   "ComfortWith": {
-    "1": "You will have comfort with:",
+    "1": "You'll have comfort with:",
     "2": "Fixed cleaning schedule",
     "3": "Same person on every occasion",
     "4": "Privacy agreement between provider and client",

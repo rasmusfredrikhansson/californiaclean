@@ -53,7 +53,7 @@ nav li {
   flex-grow: 1;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 900px) {
   nav li {
     font-size: 16px;
     margin: 0 10px 0 10px;
@@ -62,11 +62,12 @@ nav li {
 
 @media (max-width: 768px) {
   .logo {
-    height: 22px;
+    height: 28px;
     margin-right: 5px;
+    margin-top: 15px;
   }
   .logotype h4 {
-    font-size: 20px !important;
+    font-size: 22px !important;
   }
 
   .navigation {
@@ -74,6 +75,10 @@ nav li {
   }
   .logotype {
     padding: 0;
+  }
+
+  .navbarSpacer {
+    display: none;
   }
 }
 

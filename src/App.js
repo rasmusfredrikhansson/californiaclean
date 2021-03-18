@@ -72,12 +72,12 @@ const App = () => {
 
         <div className="bookingContainer">
         
-          <div className="intro-message"><h1>{t('Try.1')}<br/>{t('Try.2')}<i>{t('Try.25')}</i></h1>
+          <div className="intro-message"><h1>{t('Try.1')}<br/>{t('Try.2')}<br/><i>{t('Try.25')}</i></h1>
           
             <div>
               <p style={{ fontSize: '16px'}}>{t('Try.4')}</p>
             </div>
-            <div>
+            <div className="telephone-number">
               {/* <button className="bookNow" onClick={ openCalendar }>{t('Try.5')}</button> */}
               <a href="tel:0728692123"><h2>{t('Try.3')}</h2></a>
             </div>
@@ -204,7 +204,7 @@ const App = () => {
       </div>  
 
       
-      <h1 style={{ fontSize: "36px", paddingLeft: "40px", paddingTop: "60px", marginLeft: "15px" }}>{t('Included.01')}</h1>
+      <h1 style={{ fontSize: "36px", paddingLeft: "20px", paddingTop: "60px", marginLeft: "15px" }}>{t('Included.01')}</h1>
       <div data-aos="fade-right" className="flexBox4" style={{ marginBottom: "80px" }}>
         <div className="flexSpacer20"></div>
         <ul>

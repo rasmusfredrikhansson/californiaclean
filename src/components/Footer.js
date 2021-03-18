@@ -27,8 +27,8 @@ const Footer = props => {
           
           <li><i className="fas fa-map-marker-alt"></i>Högklintsvägen 4</li>
           <li>167 37 Bromma</li>
-          <li style={{marginTop: '30px'}}><i className="fas fa-phone-alt"></i><a href="tel:+18475555555"><strong style={{ fontSize: '19px'}}>072-869 21 23</strong></a></li>
-          <li style={{marginTop: '0px', marginBottom: '15px' }}><a className="mailto" href="mailto:  "><span><strong>hello</strong>californiaclean</span>@gmail.com</a></li>
+          <li style={{marginTop: '30px'}}><i className="fas fa-phone-alt"></i><a href="tel:0728692123"><strong style={{ fontSize: '19px'}}>072-869 21 23</strong></a></li>
+          <li style={{marginTop: '0px', marginBottom: '15px' }}><a className="mailto" href="mailto:hellocaliforniaclean@gmail.com"><span><strong>hello</strong>californiaclean</span>@gmail.com</a></li>
           <li style={{marginTop: '31px'}}>© <strong>2021 California Clean</strong></li>
         </ul>
         <div className="spacer"></div>

@@ -6,7 +6,7 @@
     "1": "Hemstädning",    
     "2": "Städprofil",
     "3": "Tjänster",    
-    "4": "Personal",
+    "4": "Jobba med oss",
     "5": "Om Oss"
   },
   "Try": {
@@ -18,7 +18,7 @@
     "5": "Boka Nu"
   },
   "WhyHomeCleaning": {
-    "1": "Varför hemstädning?",
+    "1": "Hemstädning",
     "2": "Vi tror att moderna människor och familjer behöver städhjälp för att hinna med det där lilla extra i vardagen. Att komma till ett professionellt städat hem är en upplevelse som känns bra. Smuts, damm och bakterier blir borttagna på de där ytor som du inte har tid för eller har svårt att komma åt. Vi har erfarenheten av att göra städjobb av god kvalitet på ett snabbt och säkert sätt."
   },
   "Pricing": {
@@ -30,7 +30,7 @@
     "1": "Hur funkar det?",
     "2": "Vi gör det enkelt för dig. Du ringer oss på ",
     "3": "072-869 21 23",
-    "4": " och vi bokar tid där vi träffas och går igenom din städprofil. Därefter är vi redo att börja med Första Gångs Städningen på utsatt datum. Vår städpersonal besöker dig regelbundet på samma tid och samma dag som är noterat i din Städprofil. Vid varje besök lämnar vi ditt hem skinande, fräscht och rent."
+    "4": " och vi bokar tid där vi träffas och går igenom din städprofil. Därefter är vi redo att börja med första gångs städningen på utsatt datum. Vår städpersonal besöker dig regelbundet på samma tid och samma dag som är noterat i din nya Städprofil."
   },
   "Enjoy": {
     "1": "Vi städar, du njuter!",
@@ -47,8 +47,8 @@
   },
   "RegularCleaning": {
     "1": "Veckostädning",
-    "2": "Veckostädning är ett utmärkt sätt att hålla hemmet snyggt och fräscht. Vi fokuserar på det som är unikt för varje bostad och anpassar städningen efter möbler, inredning och andra detaljer i hemmet.",
-    "3": "Veckostädning kan göras en gång i veckan, varannan vecka, var tredje vecka eller en gång i månaden."
+    "2": "Regelbunden städning är ett utmärkt sätt att hålla hemmet snyggt och fräscht. Vi fokuserar på det som är unikt för varje bostad och anpassar städningen efter möbler, inredning och andra detaljer i hemmet.",
+    "3": "Kan göras en gång i veckan, varannan vecka, var tredje vecka eller en gång var fjärde vecka."
   },
   "About": {
     "1": "Om Oss",
@@ -66,7 +66,7 @@
     "6": "Flexibilitet att avboka eller senarelägga ett städtillfälle 48 timmar innan"
   },
   "Included": {
-    "01": "Vad ingår i tjänsterna",
+    "01": "Vad är inkluderat:",
     "10": "KÖK",
     "11": "Tvätt av handfat",
     "12": "Ugnen utanpå",
