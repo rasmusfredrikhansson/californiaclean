@@ -205,7 +205,7 @@ const App = () => {
 
       
       <h2 className="whatsincluded">{t('Included.01')}</h2>
-      <div data-aos="fade-right" className="flexBox4" style={{ marginBottom: "0px" }}>
+      <div data-aos="fade-right" className="flexBox4" style={{ marginBottom: "80px" }}>
         <div className="flexSpacer20"></div>
         <ul>
           <h2>{t('Included.10')}</h2>
@@ -255,11 +255,11 @@ const App = () => {
       <div className="flexSpacer20"></div>
     </div>
 
-    <div className="socialMedia" data-aos="fade-right">
+    {/* <div className="socialMedia" data-aos="fade-right">
       <p>{t('Follow.1')}</p>
-      {/* <a href="https://www.facebook.com/californiaclean75" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook"></i></a> */}
+      <a href="https://www.facebook.com/californiaclean75" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook"></i></a>
       <a href="https://www.instagram.com/californiaclean.instockholm/" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram-square"></i></a>
-    </div>
+    </div> */}
       
     <Footer />
       
