@@ -257,7 +257,7 @@ const App = () => {
 
     <div className="socialMedia" data-aos="fade-right">
       <p>{t('Follow.1')}</p>
-      <a href="https://www.facebook.com/californiaclean75" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook"></i></a>
+      {/* <a href="https://www.facebook.com/californiaclean75" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook"></i></a> */}
       <a href="https://www.instagram.com/californiaclean.instockholm/" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram-square"></i></a>
     </div>
       
