@@ -6,18 +6,24 @@ import ContactForm from './ContactForm'
 
 const TheCalendar = props => {
   const [date, setDate] = useState(new Date())
-  const [time, setTime] = useState()
+  const [time, setTime] = useState('')
   const [calendarClose, setCalendarClose] = useState(false)
   const [formOpen, setFormOpen] = useState(false)
 
   let minDate = new Date()
   
+  let dateFormated = date.toLocaleDateString()
+  console.log(dateFormated);
   
   const onCalendarChange = date => {
     setDate(date)
     console.log(date)
   }
   
+  const changeTime = e => {
+    setTime(e.currentTarget.value)
+  }
+
   let calendarClasses = ['calendar']
   if (props.show) {
     calendarClasses = ['calendar open']
@@ -32,10 +38,7 @@ const TheCalendar = props => {
     setCalendarClose(true)
   }
 
-  const changeTime = (value) => {
-    setTime(value)
-  }
-
+  
   // close the contact form when user clicks elsewhere
 
   const node = useRef();
@@ -62,7 +65,6 @@ const TheCalendar = props => {
   }, [formOpen]);
   
 
-
   return (
     <div ref={node}>
     
@@ -84,7 +86,7 @@ const TheCalendar = props => {
           <button className="bookNow" onClick={openForm}>Book now</button>
         </div>
       </div>
-      <ContactForm show={formOpen} contactDate={date} contactTime={time}  />
+      <ContactForm show={formOpen} contactDate={dateFormated} contactTime={time}  />
       </div>
   )
 }   
