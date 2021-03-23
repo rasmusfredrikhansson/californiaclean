@@ -70,60 +70,90 @@ const App = () => {
 
         <div className="bookingContainer">
         
-          <div className="intro-message"><h1>{t('Try.1')}<br/>{t('Try.2')}<br/><i>{t('Try.25')}</i></h1>          
-            <div>
-              <p style={{ fontSize: '16px'}}>{t('Try.4')}</p>
-            </div>
+          <div className="intro-message">            
+            <h1>{t('Try.1')}</h1>
+            <h2>{t('Try.2')}</h2> 
+            <h3>{t('Try.25')}</h3>
+            {/* <h5>{t('Try.4')}</h5>            */}
 
             <div className="telephone-number">
-              <button className="bookNow" onClick={ openCalendar }>{t('Try.5')}</button>
-              <a href="tel:0728692123"><h2>{t('Try.3')}</h2></a>            
-              <h2>{t('Try.3')}</h2>
-            </div>          
+              {/* <button className="bookNow" onClick={ openCalendar }>{t('Try.5')}</button> */}
+              <a href="tel:0728692123"><h4>{t('Try.3')}</h4></a>             
+            </div>                     
           </div>
+
+          
 
           <TheCalendar show={calendarOpen} click={backdropClickHandler} />
         </div>           
       </div>
 
       <div id="hemstadning" className="flexBox">
-        <div className="box1 "></div>
+        <div className="box1"></div>
         <div className="content-box1" data-aos="fade-right">
           <h2>{t('WhyHomeCleaning.1')}</h2>
-          <p>{t('WhyHomeCleaning.2')}</p></div>
+          <p>{t('WhyHomeCleaning.2')}</p>
+          <br/>
+          <p>{t('WhyHomeCleaning.3')}</p>                     
+        </div>
         <div className="box3"></div>
         <div className="background-box1 background1">
           <img src={pic1} alt="" />
         </div>    
       </div>
 
-      <div className="flexBox5">        
-        <div>
-          <h2>{t('Pricing.1')}</h2>               
-          <h1>{t('Pricing.2')}</h1>
-          <p>{t('Pricing.3')}</p>
-        </div>       
-      </div>  
-
-      <div id="veckostadning" className="flexBox">
-        <div className="background-box2 background6">
-          <img src={pic6} alt="" />
+      <div id="varstadning" className="flexBox">
+        <div className="background-box2 background5">
+          <img src={pic5} alt="" />
         </div>
         <div className="box6"></div>
         <div className="content-box2" data-aos="fade-right">
-          <h2>{t('RegularCleaning.1')}</h2>
-          <p>{t('RegularCleaning.2')}</p>
-          <p className="smallprint">{t('RegularCleaning.3')}</p>   
+          <h2>{t('SpringCleaning.1')}</h2>
+          <p>{t('SpringCleaning.2')}</p>          
+          <br/>
+          <p style={{color: "#6bc32c"}}>{t('SpringCleaning.3')}</p>          
+          {/* <p className="smallprint">{t('RegularCleaning.3')}</p>    */}
         </div>
         <div className="box8"></div>
-      </div>       
+      </div> 
+
+        
+
+      
+
+      <div id="veckostadning" className="flexBox">
+        <div className="box1"></div>
+        <div className="content-box1" data-aos="fade-right">
+          <h2>{t('RegularCleaning.1')}</h2>
+          <p>{t('RegularCleaning.2')}</p>          
+          <br/>
+          <p style={{color: "#6bc32c"}}>{t('RegularCleaning.3')}</p>   
+        </div>
+        <div className="box3"></div>
+        <div className="background-box1 background6">
+          <img src={pic6} alt="" />
+        </div>    
+      </div>  
+
+      <div className="flexBox5">        
+        <div>
+          <h2>{t('Pricing.1')}</h2>               
+          <h3>{t('Pricing.2')}</h3>
+          <p>{t('Pricing.3')}</p>
+          <p style={{color: "white", marginTop: "36px", fontSize: "30px"}}>{t('Pricing.4')}</p>
+          <p style={{fontSize: "24px"}}>{t('Pricing.5')}</p>
+          <p style={{marginTop: "-5px"}}>{t('Pricing.6')}</p>
+        </div>       
+      </div>     
 
       <div id="stadprofil" className="flexBox">
         <div className="box1"></div>
         <div className="content-box1" data-aos="fade-right">
-          <h2>{t('Enjoy.1')}</h2>
-          <p>{t('Enjoy.2')}</p>
-          <p className="smallprint">{t('Enjoy.3')}</p>   
+          <h2>{t('CleaningProfile.1')}</h2>
+          <p>{t('CleaningProfile.2')}</p>          
+          <br/>
+          <p style={{color: "#6bc32c", marginBottom: "10px"}}><i>{t('CleaningProfile.3')}</i></p> 
+          <p>{t('CleaningProfile.4')}</p>  
         </div>
         <div className="box3"></div>
         <div className="background-box1 background3">
@@ -139,7 +169,9 @@ const App = () => {
         <div className="box6"></div>
         <div className="content-box2" data-aos="fade-right">
           <h2>{t('Services.1')}</h2>
-          <p>{t('Services.2')}</p> 
+          <p>{t('Services.2')}</p>          
+          <br/>
+          <p style={{color: "#6bc32c"}}>{t('Services.3')}</p>  
           {/* <p className="smallprint">{t('Services.3')}</p>    */}
         </div>
         <div className="box8"></div>
@@ -181,7 +213,9 @@ const App = () => {
         <div className="box6"></div>
         <div className="content-box2" data-aos="fade-right">
           <h2>{t('Work.1')}</h2>
-          <p>{t('Work.2')}</p>   
+          <p>{t('Work.2')}</p>
+          <br/>
+          <p>{t('Work.3')}</p>          
         </div>
         <div className="box8"></div>
       </div> 
@@ -190,8 +224,9 @@ const App = () => {
         <div className="box1"></div>
         <div className="content-box1" data-aos="fade-right">
           <h2>{t('About.1')}</h2>
-          <p>{t('About.2')}</p>  
-          <p className="smallprint">{t('About.3')}<br/>{t('About.4')}<br/><br/>{t('About.5')}</p> 
+          <p>{t('About.2')}</p>          
+          <br/>
+          <p style={{color: "rgb(107, 195, 44)", fontSize: "16px"}}>{t('About.3')}</p> 
         </div>
         <div className="box3"></div>
         <div className="background-box1 background5">
@@ -201,7 +236,7 @@ const App = () => {
 
       
       <h2 className="whatsincluded">{t('Included.01')}</h2>
-      <div data-aos="fade-right" className="flexBox4" style={{ marginBottom: "80px" }}>
+      <div data-aos="fade-right" className="flexBox4" style={{ marginBottom: "60px" }}>
         <div className="flexSpacer20"></div>
         <ul>
           <h2>{t('Included.10')}</h2>

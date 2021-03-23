@@ -4,18 +4,19 @@
   },
   "HomeCleaning": {
     "1": "Home Cleaning",    
-    "2": "Cleaning Profile",
-    "3": "Services",    
-    "4": "Work with us",
-    "5": "About Us"    
+    "2": "Spring Cleaning",
+    "3": "Regular Cleaning",
+    "4": "My Cleaning Profile",
+    "5": "Services",
+    "6": "About Us"    
   },  
   "Try": {
-    "1": "Book Spring Cleaning",
-    "2": "Today 100kr per hour",
-    "25": "After RUT deduction",
-    "3": "For more info, call 072-869 21 23",
-    "4": "This offer is valid for the first seven hours",
-    "5": "Book Now"
+    "1": "Book Spring Cleaning Today",
+    "2": "100kr per hour",
+    "25": "After RUT deduction, including VAT",
+    "3": "Call us at 072-869 21 23",
+    "4": "This offer is valid for the first 7 hours",
+    "5": "Book Now"   
   },
   "HowitWorks": {
     "1": "How does it work?",
@@ -25,37 +26,47 @@
   },
   "WhyHomeCleaning": {
     "1": "Home cleaning",
-    "2": "We believe that modern folks and family need cleaning help to have time for that little extra in their every day life. To come to a professionally cleaned home feels great. Dirt, dust, and bacteria will be removed, those spots that you don't have time for or are difficult to reach. We have the experience to do a high quality cleaning job, swiftly and safely."
+    "2": "We believe that modern people and families need cleaning help to have a little extra time in their everyday life.",
+    "3": "To come to a professionally cleaned home that smells good is always a great feeling. Those spots that you don't have time for or are difficult to reach will be removed. We have the experience and to do a high quality cleaning job, swiftly and safely. We clean, you relax."
   },
   "Pricing": {
-    "1": "Regular Cleaning",
-    "2": "200kr / hour",
-    "3": "After RUT deduction, including VAT"
+    "1": "Regular Cleaning & Other Cleaning Services",
+    "2": "200kr per hour",
+    "3": "After RUT deduction, including VAT",
+    "4": "First time cleaning",
+    "5": "100kr per hour",
+    "6": "The offer is valid for the first seven hours"
   },
-  "Enjoy": {
-    "1": "We clean, you relax!",
-    "2": "Together we agree on what should be included in your home Cleaning Profile. With every cleaning occasion, the same co-worker will come out to do the assignment. In our cleaning package, we always use eco-friendly products and towels because we care for the environment both inside and outside your home.",
-    "3": "You can book a cleaning every day Monday through Friday for the Morning between 7 & 9 and for the Afternoon between 12.00 & 15.00"
+  "CleaningProfile": {
+    "1": "My Cleaning Profile",
+    "2": "Together we agree on what should be included in your home Cleaning Profile. With every cleaning occasion, the same co-worker will come out to do the assignment. In our cleaning package, we always use eco-friendly products and towels as we care for the environment both inside and outside your home.",
+    "3": "You can book a cleaning",
+    "4": " Monday through Friday for the Morning between 7 and 9am and for the Afternoon between 12 and 15pm, Saturday between 9 and 11am."
   },
   "Services": {
     "1": "Services",
-    "2": "Our California Clean co-workers are professionally trained in modern cleaning. We excel in services ranging from regular cleaning, deep cleaning, windows washing, and kitchen cleaning as well as moving cleaning and post construction cleaning. We cover all cleaning needs for your home and if there is something extra that is not standard, like ironing or doing laundry, you can always add as an additional service."
+    "2": "Our California Clean experts are professionally trained in modern cleaning. We cover all cleaning needs for your home and if there is something extra that is not standard, like ironing or doing laundry, you can always add as an additional service.",
+    "3": "We excel in services ranging from one-time cleaning, regular cleaning, deep cleaning, windows washing, kitchen cleaning, spring cleaning, Christmas cleaning as well as moving cleaning and post construction cleaning."
   },
   "Work": {
     "1": "Work with us",
-    "2": "Want to work with California Clean, you are welcome to contact us. We train personell in professional cleaning and services. All our staff members will go through a rigorous training with everything from material knowledge and furniture care to the use of cleaning products, clothing care and special equipment."
+    "2": "Want to work with California Clean, you are welcome to contact us. We train personell in professional cleaning and services.",    
+    "3": "All our staff members will go through a rigorous training with everything from material knowledge and furniture care to the use of cleaning products, clothing care and special equipment."
   },
   "RegularCleaning": {
-    "1": "Weekly Cleaning",
-    "2": "Regular cleaning is the best way to keep your home nice & fresh. We focus on what's unique about every home and customize the cleaning based on furniture, decorations and other details.",
-    "3": "Can be performed every week, every two weeks, every three weeks or every fourth week."
+    "1": "Regular Cleaning",
+    "2": "The best way to keep your home nice and freshly clean is a routine. Weekly cleaning is therefore our most popular option. We focus on what's unique about every home and customize the cleaning based on furniture, decorations and other details.",
+    "3": "The cleaning can also be performed every two weeks, every three or every four weeks."    
+  },
+  "SpringCleaning": {
+    "1": "Spring Cleaning",
+    "2": "Doing a thorough home spring cleaning has a number of health benefits. A clean home can strenghten your immune system and help you avoid illnesses. Cleaning everything entirely from dust, stains, dirt and bacteria also influence your living with a positive energy and a comfortable atmosphere.",
+    "3": "Now after winter, our tip is to start your spring-cleaning with washing the windows to get that extra shiny feeling in your home."
   },
   "About": {
     "1": "About us",
-    "2": "California Clean was established in Orange & Los Angeles County, California in 1996 and was run successfully for 10 sunshine years ;). Later we moved to Belgium, soon to Holland and now we are based in Stockholm.",
-    "3": "We work in the following areas:",
-    "4": "BROMMA, STOCKHOLM CITY & LIDINGÖ, TÄBY, DANDERYD, SOLNA, SUNDBYBERG, SOLLENTUNA, ENSKEDE & NACKA.",
-    "5": "If you can't find your location here, just give us a call and we'll do our best to accomodate you."
+    "2": "California Clean was established in Orange County, California in 1996. The company soon expanded to Los Angeles County and was run successfully for 10 sunshine years ;) Later we moved to Belgium, soon to Holland and now we are based in Stockholm.",
+    "3": "We work in Stockholm and adjacent areas up to 35km"
   },
   "ComfortWith": {
     "1": "You'll have comfort with:",
@@ -63,10 +74,10 @@
     "3": "Same person on every occasion",
     "4": "Privacy agreement between provider and client",
     "5": "Insurance in location placed by provider (accident insurance)",
-    "6": "Flexibility to cancel or postpone 48 hours before a booked cleaning occasion"
+    "6": "Flexibility to cancel or postpone 24 hours before a booked cleaning occasion"
   },
   "Included": {
-    "01": "What's included:",
+    "01": "What's included in my cleaning profile:",
     "10": "KITCHEN",
     "11": "Washing Sink",
     "12": "Ovens outside",
