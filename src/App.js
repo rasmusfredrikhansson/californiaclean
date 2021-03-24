@@ -229,8 +229,8 @@ const App = () => {
           <p style={{color: "rgb(107, 195, 44)", fontSize: "16px"}}>{t('About.3')}</p> 
         </div>
         <div className="box3"></div>
-        <div className="background-box1 background5">
-          <img src={pic5} alt="" />
+        <div className="background-box1 background2">
+          <img src={pic2} alt="" />
         </div>    
       </div>  
 

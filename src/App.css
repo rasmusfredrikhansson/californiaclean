@@ -353,6 +353,7 @@ h2.whatsincluded {
 .sExtras h3 {
   position: relative;
   bottom: 10px;
+  font-weight: normal;
 }
 
 .socialMedia {
@@ -762,11 +763,15 @@ h2.whatsincluded {
   h2.whatsincluded {
     padding-left: 15px;
     padding-bottom: 30px;
+    line-height: 2rem;
   }
 
   .sExtras {
     top: 0;
     margin-bottom: 0px;
+  }
+  .sExtras h3 {
+    bottom: 6px;
   }
   .socialMedia p {
     font-size: 18px;
@@ -781,6 +786,6 @@ h2.whatsincluded {
     font-size: 60px;
   }
   .telephone-number {
-    margin-top: 0px !important;
+    margin-top: 76px !important;
   }
 }
