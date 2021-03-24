@@ -13,7 +13,7 @@ const TheCalendar = props => {
   let minDate = new Date()
   
   let dateFormated = date.toLocaleDateString()
-  console.log(dateFormated);
+  // console.log(dateFormated);
   
   const onCalendarChange = date => {
     setDate(date)
@@ -49,6 +49,7 @@ const TheCalendar = props => {
     return;
   }
     setFormOpen(false);
+    setCalendarClose(false)
 };
 
 

@@ -26,14 +26,14 @@ const ContactForm = (props) => {
       <div className={contactFormClassses}>
           
       <form onSubmit={sendEmail}>
-        <input className="input-box" type="text" placeholder="Full name" name="full_name"></input>  
+        <input className="input-box" type="text" placeholder="Full name" name="full_name" required></input>  
         <input className="input-box" type="hidden" name="date" value={props.contactDate}></input>
         <input className="input-box" type="hidden" name="time" value={props.contactTime}></input>
-        <input className="input-box" type="tel" placeholder="Telephone" name="telephone"></input>
-        <input className="input-box" type="email" placeholder="Email address" name="email_adress"></input>
-        <input className="input-box" type="text" placeholder="Address" name="adress"></input>
-        <input className="input-box" type="text" placeholder="Postadress" name="postadress"></input>
-        <input className="send-form" type="submit" value="Book Now" ></input>   
+        <input className="input-box" type="tel" placeholder="Telephone" name="telephone" required></input>
+        <input className="input-box" type="email" placeholder="Email address" name="email_adress" required></input>
+        <input className="input-box" type="text" placeholder="Address" name="adress" required></input>
+        <input className="input-box" type="text" placeholder="Postadress" name="postadress" required></input>
+        <input className="send-form" type="submit" value="Book Now" required></input>   
       </form>       
            
         </div>    

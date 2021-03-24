@@ -77,7 +77,7 @@ const App = () => {
             {/* <h5>{t('Try.4')}</h5>            */}
 
             <div className="telephone-number">
-              {/* <button className="bookNow" onClick={ openCalendar }>{t('Try.5')}</button> */}
+              <button className="bookNow" onClick={ openCalendar }>{t('Try.5')}</button>
               <a href="tel:0728692123"><h4>{t('Try.3')}</h4></a>             
             </div>                     
           </div>
