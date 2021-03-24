@@ -23,7 +23,7 @@ const Footer = props => {
 
         <div className="footer-logo"><img src={footer_logo} /></div>
         <ul className="contact">
-          <li><h3>CONTACT</h3></li>
+          <li><h3>{t('FooterServices.9')}</h3></li>
           
           <li><i className="fas fa-map-marker-alt"></i>Högklintsvägen 4</li>
           <li>167 37 Bromma</li>
