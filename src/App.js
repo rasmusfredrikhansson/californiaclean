@@ -80,9 +80,7 @@ const App = () => {
               <button className="bookNow" onClick={ openCalendar }>{t('Try.5')}</button>
               <a href="tel:0728692123"><h4>{t('Try.3')}</h4></a>             
             </div>                     
-          </div>
-
-          
+          </div>         
 
           <TheCalendar show={calendarOpen} click={backdropClickHandler} />
         </div>           
