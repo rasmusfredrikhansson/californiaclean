@@ -13,6 +13,11 @@
   z-index: 100;
 }
 
+.thankyou.open {
+  display: block;
+  opacity: 1;
+}
+
 .thankyou div {
   font-family: "Pacifico", cursive;
 }
