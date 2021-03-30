@@ -2,6 +2,8 @@ import React, {useState, useEffect, useRef} from 'react'
 import Calendar from 'react-calendar'
 import 'react-calendar/dist/Calendar.css'
 import ContactForm from './ContactForm'
+import { useTranslation } from 'react-i18next'
+
 
 
 const TheCalendar = props => {
@@ -9,6 +11,8 @@ const TheCalendar = props => {
   const [time, setTime] = useState('')
   const [calendarClose, setCalendarClose] = useState(false)
   const [formOpen, setFormOpen] = useState(false)
+
+  const { t, i18n } = useTranslation()
 
   let minDate = new Date()
   
@@ -84,7 +88,7 @@ const TheCalendar = props => {
           <label className="radio__label" htmlFor="afternoon">Afternoon</label>
         </div>
         <div>
-          <button className="bookNow" onClick={openForm}>Book now</button>
+          <button className="bookNow2" onClick={openForm}>Book now</button>
         </div>
       </div>
       <ContactForm show={formOpen} contactDate={dateFormated} contactTime={time}  />

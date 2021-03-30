@@ -7,6 +7,7 @@ import Backdrop from './components/Backdrop/Backdrop'
 import Footer from './components/Footer'
 import { useTranslation } from 'react-i18next'
 import TheCalendar from './components/TheCalendar'
+import Thankyou from './components/Thankyou'
 
 
 import Aos from 'aos'
@@ -68,16 +69,19 @@ const App = () => {
 
       <div className="top">
 
+        {/* <button className="bookNow" onClick={ openCalendar }>{t('Try.5')}</button> */}
+
         <div className="bookingContainer">
+
+          {/* <Thankyou /> */}
         
           <div className="intro-message">            
             <h1>{t('Try.1')}</h1>
             <h2>{t('Try.2')}</h2> 
             <h3>{t('Try.25')}</h3>
-            {/* <h5>{t('Try.4')}</h5>            */}
+            {/* <h5>{t('Try.4')}</h5>            */}           
 
-            <div className="telephone-number">
-              <button className="bookNow" onClick={ openCalendar }>{t('Try.5')}</button>
+            <div className="telephone-number">              
               <a href="tel:0728692123"><h4>{t('Try.3')}</h4></a>             
             </div>                     
           </div>         
@@ -234,7 +238,7 @@ const App = () => {
 
       
       <h2 className="whatsincluded">{t('Included.01')}</h2>
-      <div data-aos="fade-right" className="flexBox4" style={{ marginBottom: "60px" }}>
+      <div data-aos="fade-right" className="flexBox4" style={{ marginBottom: "30px" }}>
         <div className="flexSpacer20"></div>
         <ul>
           <h2>{t('Included.10')}</h2>

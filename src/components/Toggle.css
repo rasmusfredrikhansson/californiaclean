@@ -29,3 +29,10 @@
   box-shadow: 0 0 5px red;
   transform: translate(19px, 0);
 }
+
+.label {
+  font-size: 10px;
+  position: relative;
+  bottom: 29px;
+  left: 5px;
+}
