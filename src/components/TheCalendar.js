@@ -19,15 +19,6 @@ const TheCalendar = props => {
   let dateFormated = date.toLocaleDateString()
   // console.log(dateFormated);
   
-  const onCalendarChange = date => {
-    setDate(date)
-    console.log(date)
-  }
-  
-  const changeTime = e => {
-    setTime(e.currentTarget.value)
-  }
-
   let calendarClasses = ['calendar']
   if (props.show) {
     calendarClasses = ['calendar open']
@@ -37,12 +28,21 @@ const TheCalendar = props => {
     calendarClasses = ['calendar close']
   }
 
+  const onCalendarChange = date => {
+    setDate(date)
+    console.log(date)
+  }
+  
+  const changeTime = e => {
+    setTime(e.currentTarget.value)
+  }
+
   const openForm = () => {
     setFormOpen(open => !open)
     setCalendarClose(true)
   }
 
-  
+
   // close the contact form when user clicks elsewhere
 
   const node = useRef();
