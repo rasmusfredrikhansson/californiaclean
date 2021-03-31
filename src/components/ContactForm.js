@@ -3,17 +3,20 @@ import emailjs from 'emailjs-com';
 import Thankyou from './Thankyou';
 
 
+
 const ContactForm = (props) => {
   const [formClose, setFormClose] = useState(false);
   const [thankyouOpen, setThankyouOpen] = useState(false);
+
   
 
   let contactFormClassses = ['contact-form']
   if (props.show) {
-      contactFormClassses = ['contact-form open']
+    contactFormClassses = ['contact-form open']
   }
-  if (formClose) {
+  if (formClose)  {
     contactFormClassses = ['contact-form ']
+
   }
 
   const sendEmail = (e) => {
@@ -32,7 +35,12 @@ const ContactForm = (props) => {
   const openThankyouNote = () => {
     setFormClose(true)
     setThankyouOpen(true)
+    setTimeout(() => {
+      setThankyouOpen(false)
+      // setBackdropClose
+    }, 2000);
   }
+
 
   return (
     <div>

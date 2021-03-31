@@ -38,6 +38,7 @@ const TheCalendar = props => {
     setCalendarClose(true)
   }
 
+
   // close the contact form when user clicks elsewhere
 
   const node = useRef();

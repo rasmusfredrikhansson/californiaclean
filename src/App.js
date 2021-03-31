@@ -8,7 +8,6 @@ import Footer from './components/Footer'
 import { useTranslation } from 'react-i18next'
 import TheCalendar from './components/TheCalendar'
 
-
 import Aos from 'aos'
 import "aos/dist/aos.css"
 
@@ -24,16 +23,16 @@ import pic9 from './img/pic9.jpg'
 
 const App = () => {
 
-  const [calendarOpen, setcalendarOpen] = useState(false) 
-  const [time, setTime] = useState() 
-  const [sideDrawerOpen, setsideDrawerOpen] = useState(false)  
+  const [calendarOpen, setcalendarOpen] = useState(false)
+  const [time, setTime] = useState()
+  const [sideDrawerOpen, setsideDrawerOpen] = useState(false)
   
 
-  let contactFormClassses = [ 'contact-form' ]
+  let contactFormClassses = ['contact-form']
 
   const drawerToggleClickHandler = () => {
     setsideDrawerOpen((prevState) => {
-      return {sideDrawerOpen: !prevState.sideDrawerOpen}
+      return { sideDrawerOpen: !prevState.sideDrawerOpen }
     })
   }
 
@@ -42,6 +41,7 @@ const App = () => {
     setcalendarOpen(false)
   }
 
+  //face sa dispara calendarul si meniul la click pe pagina
   let backdrop
   if (sideDrawerOpen || calendarOpen) {
     backdrop = <Backdrop click={backdropClickHandler}/>
@@ -64,7 +64,7 @@ const App = () => {
     <div>      
       <Navbar drawerClickHandler={drawerToggleClickHandler}/>
       <SideDrawer show={sideDrawerOpen} />
-      {backdrop}   
+         {backdrop} 
 
       <div className="top">
 
@@ -79,11 +79,12 @@ const App = () => {
             <div className="telephone-number">
               <button className="bookNow" onClick={ openCalendar }>{t('Try.5')}</button>
               <a href="tel:0728692123"><h4>{t('Try.3')}</h4></a>             
-            </div>                     
+            </div>
+           
           </div>         
-
-          <TheCalendar show={calendarOpen} click={backdropClickHandler} />
-        </div>           
+          <TheCalendar show={calendarOpen} click={backdrop} />
+        </div>   
+        
       </div>
 
       <div id="hemstadning" className="flexBox">
