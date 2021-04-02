@@ -28,7 +28,6 @@ const App = () => {
   const [time, setTime] = useState()
   const [sideDrawerOpen, setsideDrawerOpen] = useState(false)
   
-
   let contactFormClassses = ['contact-form']
 
   const drawerToggleClickHandler = () => {
@@ -42,7 +41,6 @@ const App = () => {
     setcalendarOpen(false)
   }
 
-  //face sa dispara calendarul si meniul la click pe pagina
   let backdrop
   if (sideDrawerOpen || calendarOpen) {
     backdrop = <Backdrop click={backdropClickHandler}/>
@@ -69,7 +67,7 @@ const App = () => {
 
       <div className="top">
 
-        {/* <button className="bookNow" onClick={ openCalendar }>{t('Try.5')}</button> */}
+        <button className="bookNow" onClick={ openCalendar }>{t('Try.5')}</button>
 
         <div className="bookingContainer">
 

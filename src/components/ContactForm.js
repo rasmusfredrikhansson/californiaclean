@@ -8,24 +8,19 @@ const ContactForm = (props) => {
   const [formClose, setFormClose] = useState(false);
   const [thankyouOpen, setThankyouOpen] = useState(false);
 
-  
-
   let contactFormClassses = ['contact-form']
   if (props.show) {
     contactFormClassses = ['contact-form open']
   }
   if (formClose)  {
-    contactFormClassses = ['contact-form ']
-
+    contactFormClassses = ['contact-form']
   }
 
   const sendEmail = (e) => {
     e.preventDefault();
     console.log("Selected date => ", props.contactDate, props.contactTime);
 
-
-    emailjs.sendForm('contact_service', 'california_contact_form', e.target, 'user_IvPDcCwFV9Mmqlfzd7OSD')
-
+    emailjs.sendForm('contact_service', 'contact_form', e.target, 'user_IvPDcCwFV9Mmqlfzd7OSD')
 
       .then((result) => {
         console.log(result.text);
@@ -43,7 +38,6 @@ const ContactForm = (props) => {
       // setBackdropClose
     }, 2000);
   }
-
 
   return (
     <div>
