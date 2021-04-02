@@ -8,6 +8,7 @@ import Footer from './components/Footer'
 import { useTranslation } from 'react-i18next'
 import TheCalendar from './components/TheCalendar'
 import Thankyou from './components/Thankyou'
+import Email from './components/Email'
 
 import Aos from 'aos'
 import "aos/dist/aos.css"
@@ -294,6 +295,8 @@ const App = () => {
       <a href="https://www.facebook.com/californiaclean75" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook"></i></a>
       <a href="https://www.instagram.com/californiaclean.instockholm/" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram-square"></i></a>
     </div> */}
+
+      <Email />
       
       <Footer />
       
