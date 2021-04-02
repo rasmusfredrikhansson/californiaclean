@@ -8,18 +8,15 @@ import './Thankyou.css'
 const Thankyou = (props) => {
 
 // const [closeThankyou, setCloseThankyou] = useState(false)
-  // const [backdropClose, setBackdropClose] = useState(false);
+// const [backdropClose, setBackdropClose] = useState(false);
 
 let thankyouNoteClasses = ['thankyou']
 if (props.show) {
     thankyouNoteClasses = ['thankyou open']
 }
-
- 
-   
   
   return (
-    <div className="thankyou">
+    <div className={thankyouNoteClasses}>
       <div>Tack för er information. Vi återkommer snarast!</div>
     </div>
   )
