@@ -1,4 +1,4 @@
-import React, {useState, useEffect, useRef} from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import Calendar from 'react-calendar'
 import 'react-calendar/dist/Calendar.css'
 import ContactForm from './ContactForm'
@@ -6,7 +6,7 @@ import { useTranslation } from 'react-i18next'
 
 
 
-const TheCalendar = props => {
+const TheCalendar = (props) => {
   const [date, setDate] = useState(new Date())
   const [time, setTime] = useState('')
   const [calendarClose, setCalendarClose] = useState(false)
@@ -15,24 +15,24 @@ const TheCalendar = props => {
   const { t, i18n } = useTranslation()
 
   let minDate = new Date()
-  
+
   let dateFormated = date.toLocaleDateString()
   // console.log(dateFormated);
-  
+
   let calendarClasses = ['calendar']
   if (props.show) {
     calendarClasses = ['calendar open']
   }
 
   if (calendarClose) {
-    calendarClasses = ['calendar close']
+    calendarClasses = ['calendar']
   }
 
   const onCalendarChange = date => {
     setDate(date)
     console.log(date)
   }
-  
+
   const changeTime = e => {
     setTime(e.currentTarget.value)
   }
@@ -46,34 +46,33 @@ const TheCalendar = props => {
   // close the contact form when user clicks elsewhere
 
   const node = useRef();
-  
   const handleClick = e => {
-  if (node.current.contains(e.target)) {
-    // inside click
-    return;
-  }
+    if (node.current.contains(e.target)) {
+      // inside click
+      return;
+    }
     setFormOpen(false);
     setCalendarClose(false)
-};
+  };
 
 
   useEffect(() => {
-  if (formOpen){
-    document.addEventListener("mousedown", handleClick);
-  } else {
-    document.removeEventListener("mousedown", handleClick);
-  }
-    
-  return () => {
-    document.removeEventListener("mousedown", handleClick);
-  };
+    if (formOpen) {
+      document.addEventListener("mousedown", handleClick);
+    } else {
+      document.removeEventListener("mousedown", handleClick);
+    }
+
+    return () => {
+      document.removeEventListener("mousedown", handleClick);
+    };
   }, [formOpen]);
-  
+
 
   return (
     <div ref={node}>
-    
-      <div  className={calendarClasses}>
+
+      <div className={calendarClasses}>
         <Calendar
           onChange={onCalendarChange}
           value={date}
@@ -91,9 +90,9 @@ const TheCalendar = props => {
           <button className="bookNow2" onClick={openForm}>Book now</button>
         </div>
       </div>
-      <ContactForm show={formOpen} contactDate={dateFormated} contactTime={time}  />
-      </div>
+      <ContactForm show={formOpen} contactDate={dateFormated} contactTime={time} parentCallback={props.parentCallback} />
+    </div>
   )
-}   
+}
 
 export default TheCalendar
