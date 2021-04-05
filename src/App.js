@@ -297,11 +297,8 @@ const App = () => {
       <a href="https://www.instagram.com/californiaclean.instockholm/" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram-square"></i></a>
     </div> */}
 
-<<<<<<< HEAD
+
       <Email />
-      
-=======
->>>>>>> a38ff0b1ce295bf20d1d1be2ec21105e32c523a7
       <Footer />
 
     </div>
