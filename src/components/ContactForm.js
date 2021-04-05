@@ -20,7 +20,7 @@ const ContactForm = (props) => {
     e.preventDefault();
     console.log("Selected date => ", props.contactDate, props.contactTime);
 
-    emailjs.sendForm('contact_service', 'california_contact_form', e.target, 'user_IvPDcCwFV9Mmqlfzd7OSD')
+    emailjs.sendForm('service_w881ah5', 'template_x154heo', e.target, 'user_IvPDcCwFV9Mmqlfzd7OSD')
 
       .then((result) => {
         console.log(result.text);
