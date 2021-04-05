@@ -9,5 +9,5 @@
 }
 
 .backdrop.close {
-  display: none;
+  background: rgba(0, 0, 0, 0);
 }

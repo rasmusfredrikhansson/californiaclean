@@ -2,8 +2,17 @@ import React from 'react'
 import './Backdrop.css'
 
 const Backdrop = props => {
+
+  let backDropClasses = ['backdrop']
+
+  if (props.open) {
+    backDropClasses = ['backdrop']
+  } else {
+    backDropClasses = ['backdrop close']
+  }
+
   return (
-    <div className="backdrop" onClick={props.click} />   
+    <div className={backDropClasses} onClick={props.click} />
   )
 }
 

@@ -478,6 +478,11 @@ h2.whatsincluded {
   display: block;
   opacity: 1;
 }
+
+.calendar.close {
+  display: none;
+}
+
 .radio-btn {
   display: inline-flex;
   overflow: hidden;
