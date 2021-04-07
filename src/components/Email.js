@@ -20,15 +20,51 @@ const Email = () => {
   return (
     <div className="email">
       <div className="email_message">
-        Ring upp mig
+        Hör av dig idag
+      </div>
+      <div className="email_message2">
+        Vi hjälper dig!
+      </div>
+      <div className="email_message3">
+        Lämna namn, nummer, kvadratmeter och tjänster så hör vi av oss till dig.
       </div>
       <form onSubmit={sendEmail}>
-        <input type="text" placeholder="Namn" name="name"></input>
-        <input type="text" placeholder="Telefonnummer" name="telephone"></input>      
-        <select name="service">
-          <option value="Engångsstädning">Engångsstädning</option>
-          <option value="Engångsstädning">Regelbunden städning</option>
-        </select>
+        <input type="text" placeholder="Namn" name="name" required></input>
+        <input type="text" placeholder="Telefonnummer" name="telephone" required></input>
+        <input type="text" placeholder="Kvadratmeter" name="area" required></input>   
+        
+        <div className="email_options">
+          <div>
+            <input type="checkbox" name="varstadning" value="Varstadning"/>
+            <label for="varstadning">Vanlig städning</label>
+          </div>
+
+          <div>
+            <input type="checkbox" name="regelbunden" value="Regular Cleaning"/>
+            <label for="regelbunden">Regelbunden städning</label>
+          </div>
+
+          <div>
+            <input type="checkbox" name="storstadning" value="Deep Cleaning"/>
+            <label for="storstadning">Storstädning</label>
+          </div>
+
+          <div>
+            <input type="checkbox" name="fonsterputs" value="Windows Wash"/>
+            <label for="fonsterputs">Fönsterputs</label>
+          </div>
+
+          <div>
+            <input type="checkbox" name="tvattstryk" value="Laundry"/>
+            <label for="tvattstryk">Tvätt / Stryk</label>
+          </div>
+
+          <div>
+            <input type="checkbox" name="ugn" value="Inside Oven"/>
+            <label for="ugn">Insida Ugn</label>
+          </div>         
+        </div>
+
         <br/>
         {/* <textarea rows="4" placeholder="Meddelande"></textarea> */}
         <button type="submit">Skicka meddelande</button>

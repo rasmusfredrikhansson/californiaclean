@@ -60,12 +60,12 @@ nav li {
   }
 }
 
-@media (max-width: 950px) {
+/* @media (max-width: 950px) {
   nav li {
     font-size: 10px;
     margin: 0 5px 0 0px;
   }
-}
+} */
 
 @media (max-width: 769px) {
   .logo {
