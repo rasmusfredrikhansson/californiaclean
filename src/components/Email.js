@@ -3,24 +3,18 @@ import './Email.css'
 import emailjs from 'emailjs-com'
 import EmailResults from './EmailResults'
 
-const Email = () => {  
-
-  const [showResults, setShowResults] = React.useState(false)
-
-  const sendEmail = (e) => {
-    e.preventDefault();   
-    
-    emailjs.sendForm('service_w881ah5', 'template_oxrg84a', e.target, 'user_IvPDcCwFV9Mmqlfzd7OSD')
+const sendEmail = (e) => {
+  e.preventDefault();
   
-      .then((result) => {
-        console.log(result.text);
-        setShowResults(true)
-        e.target.reset()
-      }, (error) => {
-        console.log(error.text);
-      });
+  emailjs.sendForm('service_w881ah5', 'template_oxrg84a', e.target, 'user_IvPDcCwFV9Mmqlfzd7OSD')
     
-  }
+    .then((result) => {
+      console.log(result.text);
+    }, (error) => {
+      console.log(error.text);
+    });
+  e.target.reset()
+}
 
 
   return (
@@ -42,32 +36,32 @@ const Email = () => {
         <div className="email_options">
           <div>
             <input type="checkbox" name="varstadning" value="Varstadning"/>
-            <label for="varstadning">Vanlig städning</label>
+            <label htmlFor="varstadning">Vanlig städning</label>
           </div>
 
           <div>
             <input type="checkbox" name="regelbunden" value="Regular Cleaning"/>
-            <label for="regelbunden">Regelbunden städning</label>
+            <label htmlFor="regelbunden">Regelbunden städning</label>
           </div>
 
           <div>
             <input type="checkbox" name="storstadning" value="Deep Cleaning"/>
-            <label for="storstadning">Storstädning</label>
+            <label htmlFor="storstadning">Storstädning</label>
           </div>
 
           <div>
             <input type="checkbox" name="fonsterputs" value="Windows Wash"/>
-            <label for="fonsterputs">Fönsterputs</label>
+            <label htmlFor="fonsterputs">Fönsterputs</label>
           </div>
 
           <div>
             <input type="checkbox" name="tvattstryk" value="Laundry"/>
-            <label for="tvattstryk">Tvätt / Stryk</label>
+            <label htmlFor="tvattstryk">Tvätt / Stryk</label>
           </div>
 
           <div>
             <input type="checkbox" name="ugn" value="Inside Oven"/>
-            <label for="ugn">Insida Ugn</label>
+            <label htmlFor="ugn">Insida Ugn</label>
           </div>         
         </div>
 
