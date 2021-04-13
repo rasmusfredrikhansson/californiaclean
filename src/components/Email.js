@@ -1,22 +1,28 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './Email.css'
 import emailjs from 'emailjs-com'
+import EmailResults from './EmailResults'
 
-const sendEmail = (e) => {
-  e.preventDefault();
+const Email = () => {  
+
+  const [showResults, setShowResults] = React.useState(false)
+
+  const sendEmail = (e) => {
+    e.preventDefault();   
+    
+    emailjs.sendForm('service_w881ah5', 'template_oxrg84a', e.target, 'user_IvPDcCwFV9Mmqlfzd7OSD')
   
-  emailjs.sendForm('service_w881ah5', 'template_oxrg84a', e.target, 'user_IvPDcCwFV9Mmqlfzd7OSD')
+      .then((result) => {
+        console.log(result.text);
+        setShowResults(true)
+        e.target.reset()
+      }, (error) => {
+        console.log(error.text);
+      });
+    
+  }
 
-    .then((result) => {
-      console.log(result.text);
-    }, (error) => {
-      console.log(error.text);
-    });
-  e.target.reset()
-}
 
-
-const Email = () => {
   return (
     <div className="email">
       <div className="email_message">
@@ -66,6 +72,9 @@ const Email = () => {
         </div>
 
         <br/>
+
+        { showResults ? <EmailResults /> : null }
+
         {/* <textarea rows="4" placeholder="Meddelande"></textarea> */}
         <button type="submit">Skicka meddelande</button>
       </form>
