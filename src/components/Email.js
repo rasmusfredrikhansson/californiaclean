@@ -1,6 +1,7 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './Email.css'
 import emailjs from 'emailjs-com'
+import EmailResults from './EmailResults'
 
 const sendEmail = (e) => {
   e.preventDefault();
@@ -16,7 +17,6 @@ const sendEmail = (e) => {
 }
 
 
-const Email = () => {
   return (
     <div className="email">
       <div className="email_message">
@@ -66,6 +66,9 @@ const Email = () => {
         </div>
 
         <br/>
+
+        { showResults ? <EmailResults /> : null }
+
         {/* <textarea rows="4" placeholder="Meddelande"></textarea> */}
         <button type="submit">Skicka meddelande</button>
       </form>
