@@ -74,7 +74,7 @@
     "3": "Same person on every occasion",
     "4": "Privacy agreement between provider and client",
     "5": "Insurance in location placed by provider (accident insurance)",
-    "6": "Flexibility to cancel or postpone 24 hours before a booked cleaning occasion"
+    "6": "Flexibility to cancel or postpone a booked cleaning occasion"
   },
   "Included": {
     "01": "What's included in my cleaning profile:",
@@ -115,6 +115,14 @@
   },
   "Follow": {
     "1": "Follow us on social media"
+  },
+  "Contact": {
+    "1": "Get in touch with us today",
+    "2": "We will help you",
+    "3": "Leave your name, number, square meters and choose services. We'll get back to you within 2 hours.",
+    "4": "Your name",
+    "5": "Your telephone",
+    "6": "Your square meters"
   },
   "FooterServices": {
     "1": "SERVICES",

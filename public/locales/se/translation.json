@@ -75,7 +75,7 @@
     "3": "Samma person vid varje tillfälle",
     "4": "Kontrakt mellan utförare och kund",
     "5": "Försäkring finns på plats av utförare (olycksförsäkring)",
-    "6": "Flexibilitet att avboka eller senarelägga ett städtillfälle 24 timmar innan"
+    "6": "Flexibilitet att avboka eller senarelägga ett städtillfälle"
   },
   "Included": {
     "01": "Vad är inkluderat i min städprofil:",
@@ -116,6 +116,14 @@
   },
   "Follow": {
     "1": "Följ oss på sociala medier"
+  },
+  "Contact": {
+    "1": "Kontakta oss idag",
+    "2": "Vi hjälper dig",
+    "3": "Lämna ditt namn, nummer, kvadratmeter och välj tjänster. Vi återkommer till dig inom 2 timmar.",
+    "4": "Ditt namn",
+    "5": "Ditt telefonnummer",
+    "6": "Dina kvadratmeter"
   },
   "FooterServices": {
     "1": "TJÄNSTER",

@@ -2,8 +2,12 @@ import React, {useEffect} from 'react'
 import './Email.css'
 import emailjs from 'emailjs-com'
 import EmailResults from './EmailResults'
+import { useTranslation } from 'react-i18next'
+
 
 const Email = () => {  
+
+  const { t, i18n } = useTranslation()
 
   const [showResults, setShowResults] = React.useState(false)
 
@@ -18,56 +22,51 @@ const Email = () => {
         e.target.reset()
       }, (error) => {
         console.log(error.text);
-      });
-    
+      });    
   }
+
 
 
   return (
     <div className="email">
       <div className="email_message">
-        Hör av dig idag
+        {t('Contact.1')}
       </div>
       <div className="email_message2">
-        Vi hjälper dig!
+        We will help you
       </div>
       <div className="email_message3">
-        Lämna namn, nummer, kvadratmeter och tjänster så hör vi av oss till dig.
+        Leave your name, number, square meters and choose services. We'll get back to you within 2 hours.
       </div>
       <form onSubmit={sendEmail}>
-        <input type="text" placeholder="Namn" name="name" required></input>
-        <input type="text" placeholder="Telefonnummer" name="telephone" required></input>
-        <input type="text" placeholder="Kvadratmeter" name="area" required></input>   
+        <input type="text" placeholder="Your Name" name="name" required></input>
+        <input type="text" placeholder="Your Telephone" name="telephone" required></input>
+        <input type="text" placeholder="Your Square Meters" name="area" required></input>   
         
         <div className="email_options">
           <div>
             <input type="checkbox" name="varstadning" value="Varstadning"/>
-            <label for="varstadning">Vanlig städning</label>
+            <label htmlFor="varstadning">Spring Cleaning / Deep Cleaning</label>
           </div>
 
           <div>
             <input type="checkbox" name="regelbunden" value="Regular Cleaning"/>
-            <label for="regelbunden">Regelbunden städning</label>
-          </div>
-
-          <div>
-            <input type="checkbox" name="storstadning" value="Deep Cleaning"/>
-            <label for="storstadning">Storstädning</label>
-          </div>
+            <label htmlFor="regelbunden">Regular Cleaning</label>
+          </div>          
 
           <div>
             <input type="checkbox" name="fonsterputs" value="Windows Wash"/>
-            <label for="fonsterputs">Fönsterputs</label>
+            <label htmlFor="fonsterputs">Windows Washing</label>
           </div>
 
           <div>
             <input type="checkbox" name="tvattstryk" value="Laundry"/>
-            <label for="tvattstryk">Tvätt / Stryk</label>
+            <label htmlFor="tvattstryk">Ironing / Laundry</label>
           </div>
 
           <div>
             <input type="checkbox" name="ugn" value="Inside Oven"/>
-            <label for="ugn">Insida Ugn</label>
+            <label htmlFor="ugn">Inside Oven</label>
           </div>         
         </div>
 

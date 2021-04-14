@@ -7,7 +7,6 @@ import { isEnumSymbolBody } from '@babel/types';
 const ContactForm = (props) => {
   const [formClose, setFormClose] = useState(false);
   const [thankyouOpen, setThankyouOpen] = useState(false);
-  const [isSubmitted, setIsSubmitted] = useState(false)
 
   let contactFormClassses = ['contact-form']
 
@@ -21,7 +20,7 @@ const ContactForm = (props) => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_w881ah5', 'template_oxrg84a', e.target, 'user_IvPDcCwFV9Mmqlfzd7OSD')
+    emailjs.sendForm('service_w881ah5', 'template_x154heo', e.target, 'user_IvPDcCwFV9Mmqlfzd7OSD')
 
       .then((result) => {
         console.log(result.text);
@@ -29,35 +28,28 @@ const ContactForm = (props) => {
         console.log(error.text);
       });
     e.target.reset()
-  }
 
-  const openThankyouNote = () => {
-    setIsSubmitted(true);
 
-    if (isSubmitted == true) {
-      setFormClose(true)
-      setThankyouOpen(true)
-      setTimeout(() => {
-        setThankyouOpen(false)
-        props.parentCallback(false)
-      }, 2000);
-    } else {
-      console.log("The form is not send")
-    };
+    setFormClose(true)
+    setThankyouOpen(true)
+    setTimeout(() => {
+      setThankyouOpen(false)
+      props.parentCallback(false)
+    }, 2000);
   }
 
   return (
     <div>
       <div className={contactFormClassses}>
         <form onSubmit={sendEmail} >
-          <input className="input-box" type="text" placeholder="Full name" name="full_name" required ></input>  
-          <input className="input-box" type="hidden" name="date" value={props.contactDate}  ></input>
-          <input className="input-box" type="hidden" name="time" value={props.contactTime} ></input>
-          <input className="input-box" type="tel" placeholder="Telephone" name="telephone" required></input>
-          <input className="input-box" type="email" placeholder="Email address" name="email_adress" required ></input>
-          <input className="input-box" type="text" placeholder="Address" name="adress" required ></input>
-          <input className="input-box" type="text" placeholder="Postadress" name="postadress" required></input>
-          <input className="send-form" type="submit" onClick={openThankyouNote} value="Book Now" required ></input>
+          <input className="input-box" type="text" placeholder="Full name" name="full_name" required="required" />
+          <input className="input-box" type="hidden" name="date" value={props.contactDate} />
+          <input className="input-box" type="hidden" name="time" value={props.contactTime} />
+          <input className="input-box" type="tel" placeholder="Telephone" name="telephone" required="required" />
+          <input className="input-box" type="email" placeholder="Email address" name="email_adress" required="required" />
+          <input className="input-box" type="text" placeholder="Address" name="adress" required="required" />
+          <input className="input-box" type="text" placeholder="Postadress" name="postadress" required="required" />
+          <input className="send-form" type="submit" value="Book Now" />
         </form>
       </div>
       <Thankyou show={thankyouOpen} />
