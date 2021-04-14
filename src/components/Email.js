@@ -5,6 +5,7 @@ import EmailResults from './EmailResults'
 import { useTranslation } from 'react-i18next'
 
 
+
 const Email = () => {  
 
   const { t, i18n } = useTranslation()
@@ -24,6 +25,7 @@ const Email = () => {
         console.log(error.text);
       });    
   }
+
 
 
 
