@@ -156,7 +156,7 @@ const App = () => {
 
         <div style={{textAlign: "center"}}>  
 
-          <h6>Services & Prices</h6>         
+          <h6>{t('Pricing.39')}</h6>         
           
 
           {/* Spring Cleaning */}

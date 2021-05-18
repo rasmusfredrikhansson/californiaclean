@@ -556,7 +556,6 @@ h2.whatsincluded {
 
 .react-calendar {
   font-size: 16px;
-  width: 200px;
   border-radius: 5px 5px 0 0;
   border: none !important;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
@@ -698,7 +697,7 @@ abbr[title] {
 /* Additional Styles */
 .pluscost {
   display: inline-block;
-  padding-left: 30px;
+  padding-left: 15px;
   position: relative;
   bottom: 20px;
 }

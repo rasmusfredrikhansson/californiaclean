@@ -82,7 +82,8 @@
     "35": "Fönstertvätt",
     "36": "230 kr/ timme*",
     "37": "Valfri Fönster, insidan av Ugn eller Kylskåp",
-    "38": "Rekommenderas två gånger per år"
+    "38": "Rekommenderas två gånger per år",
+    "39": "Tjänster & Priser"
   },
   "CleaningProfile": {
     "1": "Min Städprofil",
@@ -92,7 +93,7 @@
     "5": "Nytt",
     "6": "Helgstädning",
     "7": "Lör - Sön 9:00-17:00",
-    "8": "(tillägskostnader tillkommer)",
+    "8": "(extra kostnader tillkommer)",
     "9": "+15kr/ hr"
   },
   "Services": {
@@ -109,7 +110,7 @@
     "1": "Regelbunden städning",
     "2": "Det bästa sättet att hålla ditt hem rent och fräsch är en rutin. Veckostädning är därför vårt mest populära alternativ.",
     "22": "Vi fokuserar på det som är unikt för varje företag och anpassar städningen efter möbler, inredning och andra detaljer i lokalerna.",
-    "3": "En gång i veckan, varannan vecka, var tredje eller var fjärde vecka."
+    "3": "En gång i veckan, varannan vecka, var tredje eller var fjärde vecka"
   },
   "SpringCleaning": {
     "1": "Vårstädning",
@@ -219,7 +220,7 @@
     "2": "Vi återkommer inom 45 minuter"
   },
   "Email": {
-    "1": "Tack för ert meddelande.",
+    "1": "Tack för ert meddelande",
     "2": "Vi återkommer snart till er!"
   }
 }

@@ -81,7 +81,8 @@
     "35": "Window Washing",
     "36": "230 kr/ hour*",
     "37": "Optional Windows, Oven or Fridge inside",
-    "38": "Recommended twice per year"
+    "38": "Recommended twice per year",
+    "39": "Services & Prices"
   },
   "CleaningProfile": {
     "1": "My Cleaning Profile",
@@ -220,7 +221,7 @@
     "2": "We will get back to you within 45 minutes"
   },
   "Email": {
-    "1": "Thank you for your message.",
+    "1": "Thank you for your message",
     "2": "We will return to you shortly!"
   }
 }
