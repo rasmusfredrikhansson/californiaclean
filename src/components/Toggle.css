@@ -20,7 +20,7 @@
   box-shadow: 0 0 5px yellow;
   position: absolute;
   top: 2px;
-  left: 2px;
+  left: 4px;
   transition: all 0.3s ease;
 }
 
@@ -31,8 +31,10 @@
 }
 
 .label {
-  font-size: 10px;
+  font-size: 15px;
+  font-weight: bold;
   position: relative;
   bottom: 29px;
-  left: 5px;
+  left: 0px;
+  color: rgb(255, 23, 110);
 }

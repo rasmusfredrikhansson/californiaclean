@@ -1,7 +1,19 @@
 .email_results {
-  width: auto;
-  background: green;
+  background: #fffd6f;
   font-family: "Pacifico", cursive;
-  color: white;
+  color: #623f4c;
   padding: 30px;
+  width: 450px;
+  margin: 0 auto;
+  line-height: 2.4rem;
+
+  position: relative;
+  bottom: 10px;
+}
+
+@media only screen and (max-width: 769px) {
+  .email_results {
+    width: 300px;
+    font-size: 19px;
+  }
 }

@@ -5,47 +5,98 @@
   "HomeCleaning": {
     "1": "Home Cleaning",    
     "2": "Spring Cleaning",
-    "3": "Regular Cleaning",
-    "4": "My Cleaning Profile",
-    "5": "Services",
+    "3": "Business Cleaning",    
+    "5": "Services & Prices",
     "6": "About Us"    
   },  
   "Try": {
-    "1": "Book Spring Cleaning Today",
+    "1": "First-Time Cleaning",
     "2": "100kr per hour",
-    "25": "After RUT deduction, including VAT",
-    "3": "Call us at 072-869 21 23",
+    "25": "Learn More About Prices",
+    "3": "072-869 21 23",
     "4": "This offer is valid for the first 7 hours",
     "5": "Book Now"   
   },
   "HowitWorks": {
     "1": "How does it work?",
-    "2": "We make it easy for you. You simply call us at",
+    "2": "We make it easy for you. You can simply book a cleaning Online or call us at",
     "3": " 072-869 21 23 ",
-    "4": "and we book a time where we meet and create your Home Cleaning Profile. After that, we are ready to start with the first time cleaning at the specified date. Our crew member then visits you regularly at the same day and same time as noted in your new Cleaning Profile."
+    "4": "and we will get back to you shortly. We are ready to start with the cleaning at the specified date we have agreed on. Later on our experts visit you regularly at the same time and same day as noted in your Cleaning-Profile."
   },
   "WhyHomeCleaning": {
     "1": "Home cleaning",
     "2": "We believe that modern people and families need cleaning help to have a little extra time in their everyday life.",
-    "3": "To come to a professionally cleaned home that smells good is always a great feeling. Those spots that you don't have time for or are difficult to reach will be removed. We have the experience and to do a high quality cleaning job, swiftly and safely. We clean, you relax."
+    "3": "To come to a professionally cleaned home that smells good is always a great feeling. Those spots that you don't have time for or are difficult to reach will be removed. We have the experience to do a high quality cleaning job, thoroughly and safely. We clean, you simply enjoy."
   },
   "Pricing": {
-    "1": "Regular Cleaning & Other Cleaning Services",
-    "2": "200kr per hour",
-    "3": "After RUT deduction, including VAT",
-    "4": "First time cleaning",
-    "5": "100kr per hour",
-    "6": "The offer is valid for the first seven hours"
+    "1": "Spring Cleaning",
+    "100": "100 kr/ hour*",    
+    "2": "The offer is valid for the first 7 hours",
+    "20": "After the first seven hours 200 kr/ hour",
+    "21": "Optional Windows, Fridge, Oven or Kitchen Cupboards",
+    "211": "Optional Windows, Fridge, Oven or Cabinets Inside/Outside",    
+    "3": "With subscription at least 1x a Month",
+    "31": "Free to cancel/ postpone 72 hours before the cleaning occasion",     
+    "4": "Book min. 24-72 hours before cleaning",
+    "5": "After RUT deduction, including VAT",
+    "6": "Regular Cleaning",
+    "61": "200 kr/ hour*",
+    "7": "One-Time Home Cleaning",
+    "77": "225 kr/ hour*",
+    "71": "First 7 hours 100 kr/ hour",
+    "72": "First 4 hours 100 kr/ hour",
+    "73": "Discount:",
+    "74": "Deep Cleaning without subscription, great for a test cleaning!",
+    "8": "One-Time Deep Cleaning",
+    "88": "230 kr/ hour*",
+    "9": "Move-In&Out Cleaning",
+    "99": "240 kr/ hour*",
+    "10": "After Construction Cleaning",
+    "101": "250 kr/ hour*",
+    "11": "Weekend Cleaning",
+    "111": "260 kr/ hour*",
+    "12": "Book 24-72 hours before Cleaning",
+    "13": "Emergency Clean-Up",
+    "133": "After Party-Cleaning",
+    "134": "Move-In & Move-Out",
+    "14": "Spring Cleaning Special 100 kr/ hour*" ,
+    "15": "Book at least 48 hours before Cleaning",
+    "16": "Use our Spring-Cleaning Special before June 21st",
+    "166": "Optional Window Washing",
+    "17": "With this offer you save 150 kr/ hour",
+    "18": "Weekly, bi-weekly, every three or every four weeks",
+    "19": "* Price is after RUT deduction, including VAT",
+    "23": "Business Cleaning",
+    "22": "344 kr/ hour",
+    "24": "Exclusive VAT",
+    "25": "1st-Time (Deep Cleaning) for a Fabulous Price",
+    "26": "Only for new customers",
+    "27": "Optional Windows",
+    "28": "Optional Windows, Cupboards inside, Oven or Fridge inside",
+    "29": "235 kr/ hour*",
+    "30": "Optional Windows, Cupboards Inside/Outside, Oven or Fridge",
+    "32": "Viewing Cleaning",
+    "33": "Optional Changing Bed Sheets, Oven or Fridge inside",
+    "34": "Weekly or Bi-weekly",
+    "35": "Window Washing",
+    "36": "230 kr/ hour*",
+    "37": "Optional Windows, Oven or Fridge inside",
+    "38": "Recommended twice per year"
   },
   "CleaningProfile": {
     "1": "My Cleaning Profile",
-    "2": "Together we agree on what should be included in your home Cleaning Profile. With every cleaning occasion, the same co-worker will come out to do the assignment. In our cleaning package, we always use eco-friendly products and towels as we care for the environment both inside and outside your home.",
+    "2": "Together we agree on what should be included in your Cleaning-Profile. With every cleaning occasion, the same cleaning expert will come out to do the assignment. In our cleaning package, we always use eco-friendly products and towels as we care for the environment both inside and outside your home.",
     "3": "You can book a cleaning",
-    "4": " Monday through Friday for the Morning between 7 and 9am and for the Afternoon between 12 and 15pm, Saturday between 9 and 11am."
+    "4": " Mon - Fri 8:00-19:00",    
+    "5": "NEW",
+    "6": "Weekend Cleaning",
+    "7": " Sat - Sun 9:00-18:00",
+    "8": "(additional charges apply)",
+    "9": "+15kr/ hr"
   },
   "Services": {
     "1": "Services",
-    "2": "Our California Clean experts are professionally trained in modern cleaning. We cover all cleaning needs for your home and if there is something extra that is not standard, like ironing or doing laundry, you can always add as an additional service.",
+    "2": "Our California Clean experts are professionally trained in modern cleaning. We cover all cleaning needs for your home and if there is something extra that is not standard like emptying the dishwasher, you can always add as an additional service.",
     "3": "We excel in services ranging from one-time cleaning, regular cleaning, deep cleaning, windows washing, kitchen cleaning, spring cleaning, Christmas cleaning as well as moving cleaning and post construction cleaning."
   },
   "Work": {
@@ -55,18 +106,25 @@
   },
   "RegularCleaning": {
     "1": "Regular Cleaning",
-    "2": "The best way to keep your home nice and freshly clean is a routine. Weekly cleaning is therefore our most popular option. We focus on what's unique about every home and customize the cleaning based on furniture, decorations and other details.",
-    "3": "The cleaning can also be performed every two weeks, every three or every four weeks."    
+    "2": "The best way to keep your home nice and freshly clean is a routine. Weekly cleaning is therefore our most popular option.",
+    "22": "We focus on what's unique about every company and customize the cleaning based on furniture, decorations and other details.",
+    "3": "Weekly, bi-weekly, every 3 or 4 weeks",
+    "33": "bi-weekly, every three weeks or on a monthly basis."    
   },
   "SpringCleaning": {
     "1": "Spring Cleaning",
-    "2": "Doing a thorough home spring cleaning has a number of health benefits. A clean home can strenghten your immune system and help you avoid illnesses. Cleaning everything entirely from dust, stains, dirt and bacteria also influence your living with a positive energy and a comfortable atmosphere.",
-    "3": "Now after winter, our tip is to start your spring-cleaning with washing the windows to get that extra shiny feeling in your home."
+    "2": "Spring Cleaning is essentially a Deep Cleaning and can be performed year around. Doing a thorough home spring cleaning has a number of health benefits. A clean home can strenghten your immune system and help you avoid illnesses. Cleaning everything entirely from dust, stains, dirt and bacteria also influence your living with a positive energy and a comfortable atmosphere.",
+    "3": "Now after winter our Tip is to start with a Windows wash to get that extra shiny feeling in your home.",
+    "4": "Read More"
+  },
+  "BusinessCleaning": {
+    "1": "Business Cleaning",
+    "2": "Read More"
   },
   "About": {
     "1": "About us",
-    "2": "California Clean was established in Orange County, California in 1996. The company soon expanded to Los Angeles County and was run successfully for 10 sunshine years ;) Later we moved to Belgium, soon to Holland and now we are based in Stockholm.",
-    "3": "We work in Stockholm and adjacent areas up to 35km"
+    "2": "California Clean was established in Orange County, California in 1996. The company soon expanded to Los Angeles County and was run successfully for 10 sunshine years ;) Later we moved to Belgium, soon to Netherlands and now we are based in Stockholm.",
+    "3": "We work in Sollentuna, Täby, Sundbyberg, Danderyd, Järfälla, Solna, Bromma, Edsberg, Sjöberg and Enebyberg"
   },
   "ComfortWith": {
     "1": "You'll have comfort with:",
@@ -74,10 +132,10 @@
     "3": "Same person on every occasion",
     "4": "Privacy agreement between provider and client",
     "5": "Insurance in location placed by provider (accident insurance)",
-    "6": "Flexibility to cancel or postpone a booked cleaning occasion"
+    "6": "Flexibility to cancel or postpone 72 hours before a booked cleaning occasion"
   },
   "Included": {
-    "01": "What's included in my cleaning profile:",
+    "01": "What's included in my Cleaning-Profile:",
     "10": "KITCHEN",
     "11": "Washing Sink",
     "12": "Ovens outside",
@@ -103,15 +161,16 @@
     "34": "Sofa & Chairs vacuuming",
     "35": "Removing Door fingerprints",
     "36": "Window Sills & Baseboards",
-    "37": "Furniture & Mini blinds dusted",
+    "37": "Furniture & Mini Blinds dusted",
     "38": "Floors (vacuumed and washed)",
     "40": "AVAILABLE TASKS",
     "41": "ADDITIONAL CHARGE",
-    "42": "Ironing & Laundry",
+    "42": "Patio Cleaning",
     "43": "Oven inside",
-    "44": "Windows washing",
-    "45": "Kitchen Cabinets inside",
-    "46": "Refrigerator & Freezer inside"
+    "44": "Window washing",
+    "45": "Kitchen Cabinets outside",
+    "46": "Refrigerator & Freezer inside",
+    "47": "Changing Bed Sheets"
   },
   "Follow": {
     "1": "Follow us on social media"
@@ -119,20 +178,49 @@
   "Contact": {
     "1": "Get in touch with us today",
     "2": "We will help you",
-    "3": "Leave your name, number, square meters and choose services. We'll get back to you within 2 hours.",
-    "4": "Your name",
-    "5": "Your telephone",
-    "6": "Your square meters"
+    "3": "Leave your information below and we'll get back to you within 45 minutes.",
+    "4": "Your Name",
+    "5": "Telephone",
+    "6": "Property square meters",
+    "7": "Spring + Regular Cleaning",
+    "8": "One-Time Home Cleaning",
+    "9": "Window Washing",
+    "10": "Moving Cleaning",
+    "11": "After Construction Cleaning",
+    "12": "Weekend Cleaning",
+    "13": "Business Cleaning",
+    "14": "Send Message",
+    "15": "Mark your preferred services",
+    "18": "Viewing Cleaning"
+  },
+  "Booking": {
+    "1": "Morning",
+    "2": "Afternoon",
+    "3": "Book now",
+    "4": "Your Full Name",
+    "5": "Telephone Number",
+    "6": "Email Address",
+    "7": "Street Address",
+    "8": "Zip Code and City"
   },
   "FooterServices": {
     "1": "SERVICES",
-    "2": "Regular Cleaning",
-    "3": "Deep Cleaning",
-    "4": "Kitchen Cleaning",
-    "5": "Windows Cleaning",
-    "6": "Relocation Cleaning",
-    "7": "Office & Retail Cleaning",
-    "8": "Final & Post Construction Cleaning",
-    "9": "CONTACT"
+    "2": "Spring (Deep) Cleaning",
+    "3": "One-Time Home Cleaning",
+    "4": "Moving Cleaning",
+    "5": "After Construction Cleaning",
+    "6": "Window Washing",
+    "7": "Business Cleaning",
+    "8": "Business Cleaning",
+    "9": "CONTACT",
+    "10": "Viewing Cleaning"
+  },
+  "ThankYou": {
+    "1": "Thank you!",
+    "2": "We will get back to you within 45 minutes"
+  },
+  "Email": {
+    "1": "Thank you for your message.",
+    "2": "We will return to you shortly!"
   }
 }

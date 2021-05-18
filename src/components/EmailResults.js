@@ -1,10 +1,14 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 import './EmailResults.css'
 
 const EmailResults = () => {
+  const { t, i18n } = useTranslation()
   return (
     <div className="email_results">
-      Tack för ert meddelande, vi återkommer snart till er!
+      {t('Email.1')}<br/>
+      {t('Email.2')}
+
     </div>
   )
 }

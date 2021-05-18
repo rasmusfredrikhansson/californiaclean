@@ -5,64 +5,120 @@
   "HomeCleaning": {
     "1": "Hemstädning",    
     "2": "Vårstädning",
-    "3": "Regelbunden städning",
+    "3": "Företagsstädning",
     "4": "Min Städprofil",    
-    "5": "Tjänster",
+    "5": "Tjänster & Priser",
     "6": "Om Oss"
   },
   "Try": {
-    "1": "Boka Vårstädning idag",
+    "1": "Förstagångsstädning",
     "2": "100kr i timmen",
-    "25": "Efter RUT avdrag, inklusive moms",
-    "3": "Ring oss på 072-869 21 23",
+    "25": "Läs Mer om Våra Priser",
+    "3": "072-869 21 23",
     "4": "Erbjudandet gäller de 7 första timmarna",
-    "5": "Boka Nu",
-    "6": "Vårt tips: Börja vårstädningen med en fönsterputs !"
+    "5": "Boka Nu"    
+  },
+  "HowitWorks": {
+    "1": "Hur funkar det?",
+    "2": "Vi gör det lätt för dig. Du kan helt enkelt boka din städning Online, eller så ringer du oss på",
+    "3": " 072-869 21 23 ",
+    "4": "och vi återkommer till er snarast. Vi är redo att börja städningen på det datum vi tillsammans bestämt. Senare besöker våra experter dig regelbundet vid samma tid och dag som även är noterat i din Städprofil."
   },
   "WhyHomeCleaning": {
     "1": "Hemstädning",
     "2": "Vi tror att moderna människor och familjer behöver städhjälp för att hinna med det där lilla extra i vardagen.",
-    "3": "Att komma till ett professionellt städat hem som är väldoftande är en upplevelse som känns bra. De där fläckar som du inte har tid för eller har för svårt att komma åt blir borttagna. Vi har erfarenheten av att göra städjobb av god kvalitet på ett snabbt och säkert sätt. Vi städar, du njuter."
+    "3": "Att komma till ett professionellt städat hem som är väldoftande är en upplevelse som känns bra. De där fläckar som du inte har tid för eller har för svårt att komma åt blir borttagna. Vi har erfarenheten av att göra städjobb av god kvalitet på ett noggrant och säkert sätt. Vi städar, du njuter helt enkelt."
   },
   "Pricing": {
-    "1": "Regelbunden städning och övriga tjänster",
-    "2": "200kr i timmen",
-    "3": "Efter RUT avdrag, inklusive Moms",
-    "4": "Förstagångsstädning",
-    "5": "100kr i timmen",
-    "6": "Erbjudandet gäller de första sju timmarna"
-  },
-  "HowitWorks": {
-    "1": "Hur funkar det?",
-    "2": "Vi gör det enkelt för dig. Du ringer oss på ",
-    "3": "072-869 21 23",
-    "4": " och vi bokar tid där vi träffas och skapar din städprofil. Därefter är vi redo att börja med första gångs städningen på utsatt datum. Vår städpersonal besöker dig sedan regelbundet på samma tid och samma dag som är noterat i din nya Städprofil."
+    "1": "Vårstädning",
+    "100": "100 kr/ timme*",
+    "2": "Erbjudandet är giltigt de första 7 timmarna",
+    "20": "Efter de sju första timmarna 200 kr/ timme",
+    "21": "Valfri Fönster, Kylskåp, Ugnen eller Köksluckor",
+    "211": "Valfri Fönster, Kylskåp, Ugnen eller Luckor Insida och Utsida",
+    "3": "Med prenumeration åtminstone 1x i månaden",
+    "31": "Gratis att avboka/ senarelägga 72 timmar innan ett städtillfälle",
+    "4": "Boka min. 24-72 timmar innan städtillfället",
+    "5": "Efter RUT avdrag, Inklusive Moms",
+    "6": "Regelbunden Städning",
+    "61": "200 kr/ timme*",
+    "7": "En-gångs Hemstädning",
+    "77": "225 kr/ timme*",
+    "71": "De första 7 timmarna 100 kr/timmen",
+    "72": "De första 4 timmarna 100 kr/timmen",
+    "73": "Rabatt:",
+    "74": "Storstädning utan prenumeration, perfekt för en provstädning!",    
+    "8": "En-gångs Storstädning",
+    "88": "230 kr/ timme",
+    "9": "Flyttstädning",
+    "99": "240 kr/ timme*",
+    "10": "Renoveringsstädning",
+    "101": "250 kr/timme*",
+    "11": "Helgstädning",
+    "111": "260 kr/ timme*",
+    "12": "Boka inom 24-72 timmar innan städtillfället",
+    "13": "Nödstädning",
+    "133": "Efter Fest-Stödning",
+    "134": "Flyttstädning",
+    "14": "Vårstädning Specialerbjudande 100 kr/timme*",
+    "15": "Boka minst 48 timmar innan Städningen",
+    "16": "Använd vårat Vårstädnings Specialerbjudande innan den 21 juni",
+    "166": "Valfri Fönstertvätt",
+    "17": "Med detta erbjudande sparar du 150 kr/ timme",
+    "18": "Veckovis, udda/ jämn vecka, var tredje eller var fjärde vecka",
+    "19": "* Alla priser är efter RUT avdrag och inklusive Moms",
+    "23": "Företagsstädning",
+    "22": "344 kr/ timme",
+    "24": "Exklusive VAT",
+    "25": "Första-gångs (Storstädning) till ett Fantastiskt Pris",
+    "26": "Bara för nya kunder",
+    "27": "Valfri Fönster",
+    "28": "Valfri Fönster, insidan av Skåp, Ugn eller Kylskåp",
+    "29": "235 kr/ timme*",
+    "30": "Valfri Fönster, insidan av Skåp, Ugn eller Kylskåp",
+    "32": "Visningsstädning",
+    "33": "Valfri Byta Sängkläder, insidan av Ugn eller Kylskåp",
+    "34": "En gång i veckan eller varannan vecka",
+    "35": "Fönstertvätt",
+    "36": "230 kr/ timme*",
+    "37": "Valfri Fönster, insidan av Ugn eller Kylskåp",
+    "38": "Rekommenderas två gånger per år"
   },
   "CleaningProfile": {
-    "1": "Min städprofil",
-    "2": "Vi kommer tillsammans överens om vad som ska ingå i din städprofil. Vid varje tillfälle kommer samma medarbetare ut för att utföra uppraget. I vårt städpaket ingår alltid miljövänliga rengöringsprodukter samt handdukar för vi värnar om miljön både innanför och utanför dina dörrar.",
+    "1": "Min Städprofil",
+    "2": "Vi kommer tillsammans överens om vad som ska ingå i din Städprofil. Vid varje tillfälle kommer samma städexpert ut för att utföra uppraget. I vårt städpaket ingår alltid miljövänliga rengöringsprodukter samt handdukar för vi värnar om miljön både innanför och utanför dina dörrar.",
     "3": "Du kan boka en städning",
-    "4": "Måndag till Fredag för Morgonen mellan 7 & 9am, och för Eftermiddagen mellan 12 & 15pm, Lördag mellan 9 & 11am."
+    "4": " Mån - Fre  8:00-18:00",
+    "5": "Nytt",
+    "6": "Helgstädning",
+    "7": "Lör - Sön 9:00-17:00",
+    "8": "(tillägskostnader tillkommer)",
+    "9": "+15kr/ hr"
   },
   "Services": {
     "1": "Tjänster",
-    "2": "Våra California Clean experter har utbildning inom modern städteknik. I princip så täcker vi alla dina städbehov hemma och är det något som inte är standard som t.ex tvätt eller strykning så går det alltid att lägga till som en tilläggstjänst.",
+    "2": "Våra California Clean experter har utbildning inom modern städteknik. I princip så täcker vi alla dina städbehov hemma och är det något som inte är standard som t.ex tömma diskmaskinen går det alltid att lägga till som en tilläggstjänst.",
     "3": "Vi är främst inom tjänster som engångsstädning, regelbunden städning, storstädning, fönsterputs, köksstädning, vårstädning, Julstädning, samt flyttstädning och renoveringsstädning."
   },
   "Work": {
     "1": "Personalutbildning",
     "2": "Vill du jobba med California Clean, vänligen kontakta oss. Vi tränar personal i profesionell städning och tjänster.",    
-    "3": "Alla medarbetare genomgår en omfattande utbildning med allt från materialkunskap och möbelvård till användning av städprodukter klädvård och specialutrustning."
+    "3": "Alla städexperter genomgår en omfattande utbildning med allt från materialkunskap och möbelvård till användning av städprodukter klädvård och specialutrustning."
   },
   "RegularCleaning": {
     "1": "Regelbunden städning",
-    "2": "Det bästa sättet att hålla ditt hem rent och fräsch är en rutin. Veckostädning är därför vårt mest populära alternativ. Vi fokuserar på det som är unikt för varje bostad och anpassar städningen efter möbler, inredning och andra detaljer i hemmet.",
-    "3": "Städningen kan även göras varannan vecka, var tredje eller var fjärde vecka."
+    "2": "Det bästa sättet att hålla ditt hem rent och fräsch är en rutin. Veckostädning är därför vårt mest populära alternativ.",
+    "22": "Vi fokuserar på det som är unikt för varje företag och anpassar städningen efter möbler, inredning och andra detaljer i lokalerna.",
+    "3": "En gång i veckan, varannan vecka, var tredje eller var fjärde vecka."
   },
   "SpringCleaning": {
     "1": "Vårstädning",
-    "2": "En ordentlig vårstädning har flera väsentliga hälsofördelar. Ett rent hem kan stärka ditt immunförsvar och hjälpa dig att undvika sjukdomar. Att rengöra allt helt från damm, fläckar, smuts och bakterier påverkar också ditt boende med en positiv energi och en bekväm atmosfär.",
-    "3": "Nu efter vintern är vårt tips att börja vårrensningen med att tvätta fönstren för att få den extra skinande känslan i ditt hem."
+    "2": "En vårstädning är i princip en storstädning och kan göras året om. En ordentlig vårstädning har flera väsentliga hälsofördelar. Ett rent hem kan stärka ditt immunförsvar och hjälpa dig att undvika sjukdomar. Att rengöra allt helt från damm, fläckar, smuts och bakterier påverkar också ditt boende med en positiv energi och en bekväm atmosfär.",
+    "3": "Nu efter vintern är vårt Tips att tvätta Fönstren för att få den extra skinande känslan i ditt hem.",
+    "4": "Läs mer"
+  },
+  "BusinessCleaning": {
+    "1": "Företagsstädning"
   },
   "About": {
     "1": "Om Oss",
@@ -75,10 +131,10 @@
     "3": "Samma person vid varje tillfälle",
     "4": "Kontrakt mellan utförare och kund",
     "5": "Försäkring finns på plats av utförare (olycksförsäkring)",
-    "6": "Flexibilitet att avboka eller senarelägga ett städtillfälle"
+    "6": "Flexibilitet att avboka eller senarelägga 72 timmar innan ett bokat städtillfälle"
   },
   "Included": {
-    "01": "Vad är inkluderat i min städprofil:",
+    "01": "Vad är inkluderat i min Städprofil:",
     "10": "KÖK",
     "11": "Tvätt av handfat",
     "12": "Ugnen utanpå",
@@ -104,15 +160,16 @@
     "34": "Dammsugning av soffor och stolar",
     "35": "Avlägsning av fingeravtryck från dörrar",
     "36": "Fönsterbrädor och Golvlister",
-    "37": "Avdamming av Möbler och Persienner",
+    "37": "Dammtorkning av Möbler och Persienner",
     "38": "Golv (dammsugs och tvättas)",
     "40": "TILLÄGGSTJÄNSTER",
     "41": "EXTRA KOSTNAD TILLKOMMER",
-    "42": "Stryk och tvätt",
+    "42": "Terasstädning",
     "43": "Insidan av ugnen",
     "44": "Fönstertvätt",
-    "45": "Insidan av köksskåp",
-    "46": "Insidan av kyl och frys"
+    "45": "Utsidan av köksskåp",
+    "46": "Insidan av kyl och frys",
+    "47": "Byta Sängkläder"
   },
   "Follow": {
     "1": "Följ oss på sociala medier"
@@ -120,20 +177,49 @@
   "Contact": {
     "1": "Kontakta oss idag",
     "2": "Vi hjälper dig",
-    "3": "Lämna ditt namn, nummer, kvadratmeter och välj tjänster. Vi återkommer till dig inom 2 timmar.",
-    "4": "Ditt namn",
-    "5": "Ditt telefonnummer",
-    "6": "Dina kvadratmeter"
+    "3": "Lämna din information nedan så återkommer vi till dig inom 45 minuter.",
+    "4": "Ditt Namn",
+    "5": "Telefonnummer",
+    "6": "Antal Kvadratmeter",
+    "7": "Vårstädning + Regelbunden",
+    "8": "En-Gångs Hemstädning",
+    "9": "Fönstertvätt",
+    "10": "Flyttstädning",
+    "11": "Renoveringsstädning",
+    "12": "Helgstädning",
+    "13": "Företagsstädning",
+    "14": "Skicka Meddelande",
+    "15": "Välj tjänster",
+    "18": "Visningsstädning"
+  },
+  "Booking": {
+    "1": "Morgon",
+    "2": "Eftermiddag",
+    "3": "Nästa",
+    "4": "Ditt fullständiga namn",
+    "5": "Telefonnummer",
+    "6": "Emailadress",
+    "7": "Gatuadress",
+    "8": "Postadress"
   },
   "FooterServices": {
     "1": "TJÄNSTER",
-    "2": "Veckostädning",
-    "3": "Storstädning",
-    "4": "Köksstädning",
-    "5": "Fönsterputs",
-    "6": "Flyttstädning",
+    "2": "Vårstädning (Storstädning)",
+    "3": "En-gångs Hemstädning",
+    "4": "Flyttstädning",
+    "5": "Renoveringsstädning",
+    "6": "Fönstertvätt",
     "7": "Företagsstädning",
-    "8": "Slutlig & Renoveringsstädning",
-    "9": "KONTAKT"
+    "8": "Företagsstädning",
+    "9": "KONTAKT",
+    "10": "Visningsstädning"
+  },
+  "ThankYou": {
+    "1": "Tack!",
+    "2": "Vi återkommer inom 45 minuter"
+  },
+  "Email": {
+    "1": "Tack för ert meddelande.",
+    "2": "Vi återkommer snart till er!"
   }
 }

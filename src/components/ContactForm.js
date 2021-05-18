@@ -3,8 +3,11 @@ import emailjs from 'emailjs-com';
 import Thankyou from './Thankyou';
 import { userInfo } from 'os';
 import { isEnumSymbolBody } from '@babel/types';
+import { useTranslation } from 'react-i18next'
 
 const ContactForm = (props) => {
+  const { t, i18n } = useTranslation()
+
   const [formClose, setFormClose] = useState(false);
   const [thankyouOpen, setThankyouOpen] = useState(false);
 
@@ -35,21 +38,21 @@ const ContactForm = (props) => {
     setTimeout(() => {
       setThankyouOpen(false)
       props.parentCallback(false)
-    }, 2000);
+    }, 5000);
   }
 
   return (
     <div>
       <div className={contactFormClassses}>
         <form onSubmit={sendEmail} >
-          <input className="input-box" type="text" placeholder="Full name" name="full_name" required="required" />
+          <input className="input-box" type="text" placeholder={t('Booking.4')} name="full_name" required="required" />
           <input className="input-box" type="hidden" name="date" value={props.contactDate} />
           <input className="input-box" type="hidden" name="time" value={props.contactTime} />
-          <input className="input-box" type="tel" placeholder="Telephone" name="telephone" required="required" />
-          <input className="input-box" type="email" placeholder="Email address" name="email_adress" required="required" />
-          <input className="input-box" type="text" placeholder="Address" name="adress" required="required" />
-          <input className="input-box" type="text" placeholder="Postadress" name="postadress" required="required" />
-          <input className="send-form" type="submit" value="Book Now" />
+          <input className="input-box" type="tel" placeholder={t('Booking.5')} name="telephone" required="required" />
+          <input className="input-box" type="email" placeholder={t('Booking.6')} name="email_adress" required="required" />
+          <input className="input-box" type="text" placeholder={t('Booking.7')} name="adress" required="required" />
+          <input className="input-box" type="text" placeholder={t('Booking.8')} name="postadress" required="required" />
+          <button className="send-form" type="submit">{t('Booking.3')}</button>
         </form>
       </div>
       <Thankyou show={thankyouOpen} />

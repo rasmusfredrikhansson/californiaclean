@@ -7,6 +7,7 @@ import Backdrop from './components/Backdrop/Backdrop'
 import Footer from './components/Footer'
 import { useTranslation } from 'react-i18next'
 import TheCalendar from './components/TheCalendar'
+import {Link} from 'react-scroll'
 
 import Thankyou from './components/Thankyou'
 import Email from './components/Email'
@@ -24,6 +25,7 @@ import pic6 from './img/pic6.jpg'
 import pic7 from './img/pic7.jpg'
 import pic8 from './img/pic8.jpg'
 import pic9 from './img/pic9.jpg'
+import pic11 from './img/pic11.jpg'
 
 const App = () => {
 
@@ -73,23 +75,21 @@ const App = () => {
       <SideDrawer show={sideDrawerOpen} />
       {backdrop}
 
-      <div className="top">
+      <div className="top">       
 
-        <button className="bookNow" onClick={openCalendar}>{t('Try.5')}</button>
-
-        <div className="bookingContainer">
-
-          {/* <Thankyou /> */}
+        <div className="telephone-number">
+          <i style={{fontSize: "28px", right: "-7px", top: "8px"}} className="fas fa-phone-alt"></i><a href="tel:0728692123"><h4 style={{position: "relative", top: "5px"}}>{t('Try.3')}</h4></a>
+        </div>
+        <div className="bookingContainer">          
 
           <div className="intro-message">
             <h1>{t('Try.1')}</h1>
-            <h2>{t('Try.2')}</h2>
-            <h3>{t('Try.25')}</h3>
-            {/* <h5>{t('Try.4')}</h5>            */}
+            <h2>{t('Try.2')}</h2>          
 
-            <div className="telephone-number">
-              <a href="tel:0728692123"><h4>{t('Try.3')}</h4></a>
-            </div>
+            <div>
+              <button className="bookNow" onClick={openCalendar}>{t('Try.5')}</button> 
+              <Link to="tjanster" activeClass="active" smooth={true} duration={300} spy={true} offset={-80}><h3>{t('Try.25')}</h3></Link>              
+            </div>                  
 
           </div>
           <TheCalendar show={calendarOpen} click={backdrop} parentCallback={callback} />
@@ -119,65 +119,193 @@ const App = () => {
         <div className="content-box2" data-aos="fade-right">
           <h2>{t('SpringCleaning.1')}</h2>
           <p>{t('SpringCleaning.2')}</p>
+          
           <br />
-          <p style={{ color: "#6bc32c" }}>{t('SpringCleaning.3')}</p>
-          {/* <p className="smallprint">{t('RegularCleaning.3')}</p>    */}
+          <p><strong style={{fontSize: "24px"}}>{t('RegularCleaning.1')}</strong></p>
+          <p className="cleaning-schedule"><strong>{t('RegularCleaning.3')}</strong></p>
+          <p>{t('RegularCleaning.2')}</p>
+          
+          
+          {/* <p style={{ color: "#6bc32c" }}>{t('SpringCleaning.3')}</p> */}
+          {/* <p className="smallprint"><Link to="tjanster" activeClass="active" smooth={true} duration={300} spy={true} offset={-80}><h3>{t('SpringCleaning.4')}</h3></Link></p> */}
         </div>
         <div className="box8"></div>
       </div>
 
+
+      {/* Business Cleaning */}
       <div id="veckostadning" className="flexBox">
         <div className="box1"></div>
         <div className="content-box1" data-aos="fade-right">
-          <h2>{t('RegularCleaning.1')}</h2>
-          <p>{t('RegularCleaning.2')}</p>
-          <br />
-          <p style={{ color: "#6bc32c" }}>{t('RegularCleaning.3')}</p>
+          <h2>{t('BusinessCleaning.1')}</h2>
+          <p>{t('RegularCleaning.22')}</p>
+
+          {/* <br/>
+
+          <p className="smallprint"><Link to="businesscleaning" activeClass="active" smooth={true} duration={300} spy={true} offset={-280}><h3 style={{cursor: "pointer"}}>{t('SpringCleaning.4')}</h3></Link></p> */}
+          {/* <br />
+          <p style={{ color: "#6bc32c" }}>{t('RegularCleaning.3')}</p> */}
         </div>
         <div className="box3"></div>
-        <div className="background-box1 background6">
-          <img src={pic6} alt="" />
+        <div className="background-box1 background11">
+          <img src={pic11} alt="" />
         </div>
       </div>
 
-      <div className="flexBox5">
-        <div>
-          <h2>{t('Pricing.1')}</h2>
-          <h3>{t('Pricing.2')}</h3>
-          <p>{t('Pricing.3')}</p>
-          <p style={{ color: "white", marginTop: "36px", fontSize: "30px" }}>{t('Pricing.4')}</p>
-          <p style={{ fontSize: "24px" }}>{t('Pricing.5')}</p>
-          <p style={{ marginTop: "-5px" }}>{t('Pricing.6')}</p>
+      <div id="tjanster" className="flexBox5">       
+
+        <div style={{textAlign: "center"}}>  
+
+          <h6>Services & Prices</h6>         
+          
+
+          {/* Spring Cleaning */}
+          <h2 id="springcleaning" style={{marginBottom: "0px", fontSize: "32px", textAlign: "center", color: "#fffd6f"}}>{t('Pricing.1')}</h2>
+          
+          {/* From 21st June, Change to 135 */}
+          <h2 style={{marginTop: "10px", color: "#fffd6f", fontSize: "24px", textAlign: "center", marginBottom: "30px"}}>{t('Pricing.100')}</h2>      
+          
+          <p>{t('Pricing.25')}</p>  
+          <p>{t('Pricing.26')}</p>
+            
+          <p>{t('Pricing.3')}</p>                            
+          <p>{t('Pricing.2')}</p>          
+          <p>{t('Pricing.20')}</p> 
+          <p>{t('Pricing.37')}</p>
+                             
+          <p style={{marginBottom: "15px"}}>{t('Pricing.4')}</p>
+          <p><strong style={{letterSpacing: "1px"}}>{t('Pricing.16')}</strong></p>
+          
+          
+          {/* Regular Cleaning */}
+          <h2 style={{marginBottom: "0px", fontSize: "32px", textAlign: "center",color: "#fffd6f"}}>{t('Pricing.6')}</h2>
+          {/* From 21st June, Change to 215 */}
+          <h2 style={{marginTop: "10px", color: "#fffd6f", fontSize: "24px", textAlign: "center", marginBottom: "30px"}}>{t('Pricing.61')}</h2>           
+          
+          <p>{t('Pricing.18')}</p>    
+          <p>{t('Pricing.33')}</p>            
+          <p>{t('Pricing.31')}</p>
+
+
+          {/* Window Washing */}
+          <h2 id="windowwash" style={{marginBottom: "0px", fontSize: "32px", textAlign: "center", color: "white"}}>{t('Pricing.35')}</h2>
+          <h2 style={{marginTop: "10px", color: "white", fontSize: "24px", textAlign: "center", marginBottom: "30px"}}>{t('Pricing.36')}</h2>         
+          
+          <p>{t('Pricing.38')}</p>
+          <p style={{ marginBottom: "102px"}}>{t('Pricing.4')}</p>
+
+                
+          {/* One Time Home Cleaning */}
+          <h2 id="homecleaning" style={{marginBottom: "0px", fontSize: "32px", textAlign: "center", color: "white"}}>{t('Pricing.7')}</h2>
+          <h2 style={{marginTop: "10px", color: "white", fontSize: "24px", textAlign: "center", marginBottom: "30px"}}>{t('Pricing.77')}</h2>
+          <p>{t('Pricing.74')}</p>         
+          <p>{t('Pricing.13')}</p>
+          <p>{t('Pricing.133')}</p>
+          <p>{t('Pricing.37')}</p>
+          <p style={{ marginBottom: "102px"}}>{t('Pricing.4')}</p>
+
+
+          
+
+
+          {/* Move In Move Out Cleaning */}
+          <h2 id="movingcleaning" style={{marginBottom: "0px", fontSize: "32px", textAlign: "center"}}>{t('Pricing.134')}</h2>
+          <h4 style={{textAlign: "center", color: "white"}}>{t('Pricing.32')}</h4>
+          <h4 style={{textAlign: "center"}}>{t('Pricing.10')}</h4>  
+          <h2 style={{marginTop: "10px", color: "white", fontSize: "24px", textAlign: "center", marginBottom: "30px"}}>{t('Pricing.29')}</h2>
+          
+          {/* <p><strong>{t('Pricing.73')}</strong> {t('Pricing.72')}</p>                 */}
+          
+                  
+          <p>{t('Pricing.28')}</p>          
+          <p style={{ marginBottom: "102px"}}>{t('Pricing.4')}</p>          
+          
+
+
+          {/* One Time Deep Cleaning */}
+          {/* <h2>{t('Pricing.8')}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{t('Pricing.88')}</h2>
+          <p>{t('Pricing.74')}</p>
+          <p><strong>{t('Pricing.73')}</strong> {t('Pricing.72')}</p>
+          <p>{t('Pricing.21')}</p>       
+          <p style={{ marginBottom: "102px"}}>{t('Pricing.4')}</p>
+
+          <h2>{t('Pricing.9')}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{t('Pricing.99')}</h2>
+          <p style={{ marginBottom: "102px"}}>{t('Pricing.4')}</p> */}
+
+          {/* Deep Cleaning */}  
+          {/* <div className="cleaning_bundle">                     
+            
+            <h4>{t('Pricing.10')}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{t('Pricing.101')}</h4>            
+          </div>
+          
+          <p className="margin"><strong>{t('Pricing.73')}</strong> {t('Pricing.72')}</p>          
+          <p>{t('Pricing.211')}</p>
+          <p>{t('Pricing.4')}</p>          */}
+
+          {/* Weekend Cleaning */}
+          {/* <h2 id="special">{t('Pricing.11')}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{t('Pricing.111')}</h2>                   
+          
+          <p>{t('Pricing.13')}</p>
+          <p>{t('Pricing.133')}</p>           
+          <p>{t('Pricing.12')}</p> */}
+
+          {/* Business Cleaning */}
+          <h2 id="businesscleaning" style={{marginBottom: "0px", fontSize: "32px", textAlign: "center"}}>{t('Pricing.23')}</h2>
+          <h2 style={{marginTop: "10px", color: "white", fontSize: "24px", textAlign: "center", marginBottom: "30px"}}>{t('Pricing.22')}</h2>                   
+          <p>{t('Pricing.24')}</p>
+          <p>{t('Pricing.34')}</p> 
+          <p>{t('Pricing.166')}</p> 
+          <p>{t('Pricing.4')}</p>         
+          
+          {/* Spring Cleaning Offer*/}
+          {/* <h5>{t('Pricing.14')}</h5>           
+          <p>{t('Pricing.16')}</p>
+          <p>{t('Pricing.166')}</p>
+          <p>{t('Pricing.2')}</p>
+          <p>{t('Pricing.15')}</p>
+          
+          <p>{t('Pricing.17')}</p>
+          <p style={{marginBottom: "20px"}}>{t('Pricing.18')}</p> */}
+          <p className="rut_deduction">{t('Pricing.19')}</p>
+
         </div>
       </div>
 
-      <div id="stadprofil" className="flexBox">
+      {/* <div id="stadprofil" className="flexBox">
         <div className="box1"></div>
         <div className="content-box1" data-aos="fade-right">
           <h2>{t('CleaningProfile.1')}</h2>
           <p>{t('CleaningProfile.2')}</p>
           <br />
           <p style={{ color: "#6bc32c", marginBottom: "10px" }}><i>{t('CleaningProfile.3')}</i></p>
-          <p>{t('CleaningProfile.4')}</p>
+          <p>{t('CleaningProfile.4')}</p><br/>
+          <p><small><strong>{t('CleaningProfile.5')} </strong></small>{t('CleaningProfile.6')}</p>
+          <p>{t('CleaningProfile.7')}</p>
         </div>
         <div className="box3"></div>
         <div className="background-box1 background3">
           <img src={pic3} alt="" />
         </div>
-      </div>
+      </div> */}
 
+      
 
-      <div id="tjanster" className="flexBox">
-        <div className="background-box2 background9">
-          <img src={pic9} alt="" />
+      {/* CLEANING PROFILE */}
+      <div id="stadprofil" className="flexBox">
+        <div className="background-box2 background3">
+          <img src={pic3} alt="" />
         </div>
         <div className="box6"></div>
         <div className="content-box2" data-aos="fade-right">
-          <h2>{t('Services.1')}</h2>
-          <p>{t('Services.2')}</p>
+          <h2>{t('CleaningProfile.1')}</h2>
+          <p>{t('CleaningProfile.2')}</p>
           <br />
-          <p style={{ color: "#6bc32c" }}>{t('Services.3')}</p>
-          {/* <p className="smallprint">{t('Services.3')}</p>    */}
+          <p style={{ color: "#6bc32c", marginBottom: "3px" }}><i style={{fontSize: "20px"}}>{t('CleaningProfile.3')}</i></p>
+          <p>{t('CleaningProfile.4')}</p><br/>
+          <p><small><strong>{t('CleaningProfile.5')} </strong>&nbsp;</small>{t('CleaningProfile.6')}</p>
+          <p>{t('CleaningProfile.7')}</p>
+          <p className="additionalcharge"><small>{t('CleaningProfile.8')}</small></p>
+          <p className="pluscost"><strong>{t('CleaningProfile.9')}</strong></p>
         </div>
         <div className="box8"></div>
       </div>
@@ -202,10 +330,12 @@ const App = () => {
             <li>{t('ComfortWith.5')}</li>
             <li>{t('ComfortWith.6')}</li>
           </ul>
+          <div style={{height: "60px"}}></div>
+          <p>{t('Services.2')}</p>
         </div>
         <div className="box3"></div>
-        <div className="background-box1 background4">
-          <img src={pic4} alt="" />
+        <div className="background-box1 background9">
+          <img src={pic9} alt="" />
         </div>
       </div>
 
@@ -230,8 +360,8 @@ const App = () => {
         <div className="content-box1" data-aos="fade-right">
           <h2>{t('About.1')}</h2>
           <p>{t('About.2')}</p>
-          <br />
-          <p style={{ color: "rgb(107, 195, 44)", fontSize: "16px" }}>{t('About.3')}</p>
+          
+          {/* <p style={{ color: "rgb(107, 195, 44)"}}>{t('About.3')}</p> */}
         </div>
         <div className="box3"></div>
         <div className="background-box1 background2">
@@ -281,10 +411,11 @@ const App = () => {
 
         <ul className="sExtras">
           <h2>{t('Included.40')}</h2>
-          <h3>{t('Included.41')}</h3>
-          <li>{t('Included.42')}</li>
+          {/* <h3>{t('Included.41')}</h3> */}
+          
           <li>{t('Included.43')}</li>
-          <li>{t('Included.44')}</li>
+          
+          <li>{t('Included.47')}</li>
           <li>{t('Included.45')}</li>
           <li>{t('Included.46')}</li>
         </ul>

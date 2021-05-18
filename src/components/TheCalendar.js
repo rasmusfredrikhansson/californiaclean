@@ -82,12 +82,12 @@ const TheCalendar = (props) => {
 
         <div className="radio-btn">
           <input onChange={changeTime} className="radio__input" type="radio" name="time" id="morning" value="morning"></input>
-          <label className="radio__label" htmlFor="morning">Morning</label>
+          <label className="radio__label" htmlFor="morning">{t('Booking.1')}</label>
           <input onChange={changeTime} className="radio__input" type="radio" name="time" id="afternoon" value="afternoon"></input>
-          <label className="radio__label" htmlFor="afternoon">Afternoon</label>
+          <label className="radio__label" htmlFor="afternoon">{t('Booking.2')}</label>
         </div>
         <div>
-          <button className="bookNow2" onClick={openForm}>Book now</button>
+          <button className="bookNow2" onClick={openForm}>{t('Booking.3')}</button>
         </div>
       </div>
       <ContactForm show={formOpen} contactDate={dateFormated} contactTime={time} parentCallback={props.parentCallback} />

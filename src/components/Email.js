@@ -19,7 +19,8 @@ const Email = () => {
   
       .then((result) => {
         console.log(result.text);
-        setShowResults(true)
+        setShowResults(true);
+        setTimeout(function(){ setShowResults(false); }, 8000);        
         e.target.reset()
       }, (error) => {
         console.log(error.text);
@@ -35,41 +36,58 @@ const Email = () => {
         {t('Contact.1')}
       </div>
       <div className="email_message2">
-        We will help you
+      {t('Contact.2')}
       </div>
       <div className="email_message3">
-        Leave your name, number, square meters and choose services. We'll get back to you within 2 hours.
+        {t('Contact.3')}
       </div>
       <form onSubmit={sendEmail}>
-        <input type="text" placeholder="Your Name" name="name" required></input>
-        <input type="text" placeholder="Your Telephone" name="telephone" required></input>
-        <input type="text" placeholder="Your Square Meters" name="area" required></input>   
+        <input type="text" placeholder={t('Contact.4')} name="name" required></input>
+        <input type="text" placeholder={t('Contact.5')} name="telephone" required></input>
+        <input type="text" placeholder={t('Contact.6')} name="area" required></input>   
         
         <div className="email_options">
+        <div style={{marginBottom: "5px", marginLeft: "10px"}}>
+          <small>{t('Contact.15')}</small>
+        </div>
+
+        <div>
+            <input type="checkbox" name="varstadning" value="First-Time Spring Cleaning"/>
+            <label htmlFor="varstadning"> <strong>{t('Contact.7')}</strong></label>
+          </div>  
+
           <div>
-            <input type="checkbox" name="varstadning" value="Varstadning"/>
-            <label htmlFor="varstadning">Spring Cleaning / Deep Cleaning</label>
+            <input type="checkbox" name="home" value="One-Time Home Cleaning"/>
+            <label htmlFor="home"> <strong>{t('Contact.8')}</strong></label>
+          </div> 
+
+          <div>
+            <input type="checkbox" name="window" value="Window Wash"/>
+            <label htmlFor="window"> <strong>{t('Contact.9')}</strong></label>
           </div>
 
           <div>
-            <input type="checkbox" name="regelbunden" value="Regular Cleaning"/>
-            <label htmlFor="regelbunden">Regular Cleaning</label>
+            <input type="checkbox" name="move" value="Move-In & Out Cleaning"/>
+            <label htmlFor="move"> <strong>{t('Contact.10')}</strong></label>
+          </div>     
+
+          <div>
+            <input type="checkbox" name="viewing" value="Viewing Cleaning"/>
+            <label htmlFor="viewing"> <strong>{t('Contact.18')}</strong></label>
+          </div>               
+
+          <div>
+            <input type="checkbox" name="construction" value="After Construction Cleaning"/>
+            <label htmlFor="construction"> <strong>{t('Contact.11')}</strong></label>
           </div>          
 
           <div>
-            <input type="checkbox" name="fonsterputs" value="Windows Wash"/>
-            <label htmlFor="fonsterputs">Windows Washing</label>
+            <input type="checkbox" name="business" value="Small Business Cleaning"/>
+            <label htmlFor="business"> <strong>{t('Contact.13')}</strong></label>
           </div>
 
-          <div>
-            <input type="checkbox" name="tvattstryk" value="Laundry"/>
-            <label htmlFor="tvattstryk">Ironing / Laundry</label>
-          </div>
+          
 
-          <div>
-            <input type="checkbox" name="ugn" value="Inside Oven"/>
-            <label htmlFor="ugn">Inside Oven</label>
-          </div>         
         </div>
 
         <br/>
@@ -77,7 +95,7 @@ const Email = () => {
         { showResults ? <EmailResults /> : null }
 
         {/* <textarea rows="4" placeholder="Meddelande"></textarea> */}
-        <button type="submit">Skicka meddelande</button>
+        <button type="submit">{t('Contact.14')}</button>
       </form>
     </div>
   )

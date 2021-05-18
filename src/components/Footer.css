@@ -21,6 +21,7 @@
 }
 .footer ul li a {
   color: white;
+  cursor: pointer;
 }
 .spacer {
   flex-basis: 150px;
@@ -52,14 +53,15 @@ i {
   flex-shrink: 0;
 }
 ul.services {
-  line-height: 1.65rem;
+  line-height: 1.43rem;
 }
 .services li:first-child {
   position: relative;
   left: 40px;
+  top: 3px;
 }
 .services-headline {
-  margin-bottom: 15px;
+  margin-bottom: 19px;
 }
 .services-headline h3 {
   font-size: 19px;
@@ -70,6 +72,7 @@ ul.services {
 }
 .footer-logo img {
   height: 300px;
+  cursor: pointer;
 }
 
 .contact {
