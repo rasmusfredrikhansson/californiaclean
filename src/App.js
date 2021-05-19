@@ -189,7 +189,7 @@ const App = () => {
 
           {/* Window Washing */}
           <h2 id="windowwash" style={{marginBottom: "0px", fontSize: "32px", textAlign: "center", color: "white"}}>{t('Pricing.35')}</h2>
-          <h2 style={{marginTop: "10px", color: "white", fontSize: "24px", textAlign: "center", marginBottom: "30px"}}>{t('Pricing.36')}</h2>         
+          <h2 style={{marginTop: "10px", color: "#fffd6f", fontSize: "24px", textAlign: "center", marginBottom: "30px"}}>{t('Pricing.36')}</h2>         
           
           <p>{t('Pricing.38')}</p>
           <p style={{ marginBottom: "102px"}}>{t('Pricing.4')}</p>
@@ -197,27 +197,24 @@ const App = () => {
                 
           {/* One Time Home Cleaning */}
           <h2 id="homecleaning" style={{marginBottom: "0px", fontSize: "32px", textAlign: "center", color: "white"}}>{t('Pricing.7')}</h2>
-          <h2 style={{marginTop: "10px", color: "white", fontSize: "24px", textAlign: "center", marginBottom: "30px"}}>{t('Pricing.77')}</h2>
+          <h2 style={{marginTop: "10px", color: "#fffd6f", fontSize: "24px", textAlign: "center", marginBottom: "30px"}}>{t('Pricing.77')}</h2>
           <p>{t('Pricing.74')}</p>         
-          <p>{t('Pricing.13')}</p>
-          <p>{t('Pricing.133')}</p>
+          <p>{t('Pricing.75')}</p>          
           <p>{t('Pricing.37')}</p>
-          <p style={{ marginBottom: "102px"}}>{t('Pricing.4')}</p>
-
-
-          
+          <p style={{ marginBottom: "102px"}}>{t('Pricing.4')}</p>          
 
 
           {/* Move In Move Out Cleaning */}
-          <h2 id="movingcleaning" style={{marginBottom: "0px", fontSize: "32px", textAlign: "center"}}>{t('Pricing.134')}</h2>
-          <h4 style={{textAlign: "center", color: "white"}}>{t('Pricing.32')}</h4>
-          <h4 style={{textAlign: "center"}}>{t('Pricing.10')}</h4>  
-          <h2 style={{marginTop: "10px", color: "white", fontSize: "24px", textAlign: "center", marginBottom: "30px"}}>{t('Pricing.29')}</h2>
+          <h2 id="movingcleaning" style={{marginBottom: "5px", fontSize: "32px", textAlign: "center"}}>{t('Pricing.134')}</h2>
+          <h4 style={{textAlign: "center"}}>{t('Pricing.10')}</h4> 
+          <h4 style={{textAlign: "center", color: "white"}}>{t('Pricing.32')}</h4>           
+          <h2 style={{marginTop: "10px", color: "#fffd6f", fontSize: "24px", textAlign: "center", marginBottom: "30px"}}>{t('Pricing.29')}</h2>
           
           {/* <p><strong>{t('Pricing.73')}</strong> {t('Pricing.72')}</p>                 */}
           
                   
-          <p>{t('Pricing.28')}</p>          
+          <p>{t('Pricing.28')}</p>
+          <p>{t('Pricing.40')}</p>           
           <p style={{ marginBottom: "102px"}}>{t('Pricing.4')}</p>          
           
 
@@ -400,24 +397,25 @@ const App = () => {
         <ul>
           <h2>{t('Included.30')}</h2>
           <li>{t('Included.31')}</li>
+          <li>{t('Included.37')}</li>
           <li>{t('Included.32')}</li>
           <li>{t('Included.33')}</li>
           <li>{t('Included.34')}</li>
           <li>{t('Included.35')}</li>
           <li>{t('Included.36')}</li>
-          <li>{t('Included.37')}</li>
+         
           <li>{t('Included.38')}</li>
         </ul>
 
         <ul className="sExtras">
           <h2>{t('Included.40')}</h2>
           {/* <h3>{t('Included.41')}</h3> */}
-          
+          <li>{t('Included.46')}</li>
           <li>{t('Included.43')}</li>
           
           <li>{t('Included.47')}</li>
           <li>{t('Included.45')}</li>
-          <li>{t('Included.46')}</li>
+          
         </ul>
         <div className="flexSpacer20"></div>
       </div>

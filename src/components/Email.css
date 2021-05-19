@@ -55,6 +55,10 @@
   margin-bottom: 10px;
 }
 
+.email_options input[type="checkbox"] {
+  padding: 0;
+}
+
 @media only screen and (max-width: 769px) {
   .email_message2 {
     font-size: 1.8rem;

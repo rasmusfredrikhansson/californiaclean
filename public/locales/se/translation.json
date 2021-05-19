@@ -7,7 +7,7 @@
     "2": "Vårstädning",
     "3": "Företagsstädning",
     "4": "Min Städprofil",    
-    "5": "Tjänster & Priser",
+    "5": "Tjänster och Priser",
     "6": "Om Oss"
   },
   "Try": {
@@ -21,8 +21,8 @@
   "HowitWorks": {
     "1": "Hur funkar det?",
     "2": "Vi gör det lätt för dig. Du kan helt enkelt boka din städning Online, eller så ringer du oss på",
-    "3": " 072-869 21 23 ",
-    "4": "och vi återkommer till er snarast. Vi är redo att börja städningen på det datum vi tillsammans bestämt. Senare besöker våra experter dig regelbundet vid samma tid och dag som även är noterat i din Städprofil."
+    "3": " 072-869 21 23, ",
+    "4": "och vi återkommer till er så snart som möjligt. Vi är redo att börja städningen på det datum vi tillsammans bestämt. Senare besöker våra experter dig regelbundet vid samma tid och dag som även är noterat i din Städprofil."
   },
   "WhyHomeCleaning": {
     "1": "Hemstädning",
@@ -47,7 +47,8 @@
     "71": "De första 7 timmarna 100 kr/timmen",
     "72": "De första 4 timmarna 100 kr/timmen",
     "73": "Rabatt:",
-    "74": "Storstädning utan prenumeration, perfekt för en provstädning!",    
+    "74": "Storstädning utan prenumeration",
+    "75": "Perfekt för en provstädning!",    
     "8": "En-gångs Storstädning",
     "88": "230 kr/ timme",
     "9": "Flyttstädning",
@@ -70,10 +71,10 @@
     "23": "Företagsstädning",
     "22": "344 kr/ timme",
     "24": "Exklusive VAT",
-    "25": "Första-gångs (Storstädning) till ett Fantastiskt Pris",
+    "25": "Förstagångsstädning (Storstädning) till ett Fantastiskt Pris",
     "26": "Bara för nya kunder",
     "27": "Valfri Fönster",
-    "28": "Valfri Fönster, insidan av Skåp, Ugn eller Kylskåp",
+    "28": "Valfri Fönster, insidan och utsidan av Skåp",
     "29": "235 kr/ timme*",
     "30": "Valfri Fönster, insidan av Skåp, Ugn eller Kylskåp",
     "32": "Visningsstädning",
@@ -83,13 +84,14 @@
     "36": "230 kr/ timme*",
     "37": "Valfri Fönster, insidan av Ugn eller Kylskåp",
     "38": "Rekommenderas två gånger per år",
-    "39": "Tjänster & Priser"
+    "39": "Tjänster och Priser",
+    "40": "Insidan av Ugn eller Kylskåp, Terrasstädning"
   },
   "CleaningProfile": {
     "1": "Min Städprofil",
     "2": "Vi kommer tillsammans överens om vad som ska ingå i din Städprofil. Vid varje tillfälle kommer samma städexpert ut för att utföra uppraget. I vårt städpaket ingår alltid miljövänliga rengöringsprodukter samt handdukar för vi värnar om miljön både innanför och utanför dina dörrar.",
     "3": "Du kan boka en städning",
-    "4": " Mån - Fre  8:00-18:00",
+    "4": " Mån - Fre  7:30-19:00",
     "5": "Nytt",
     "6": "Helgstädning",
     "7": "Lör - Sön 9:00-17:00",
@@ -161,15 +163,15 @@
     "34": "Dammsugning av soffor och stolar",
     "35": "Avlägsning av fingeravtryck från dörrar",
     "36": "Fönsterbrädor och Golvlister",
-    "37": "Dammtorkning av Möbler och Persienner",
+    "37": "Dammtorkning av Möbler",
     "38": "Golv (dammsugs och tvättas)",
     "40": "TILLÄGGSTJÄNSTER",
     "41": "EXTRA KOSTNAD TILLKOMMER",
     "42": "Terasstädning",
-    "43": "Insidan av ugnen",
+    "43": "Tömma Diskmaskinen",
     "44": "Fönstertvätt",
     "45": "Utsidan av köksskåp",
-    "46": "Insidan av kyl och frys",
+    "46": "Tömma Papperskorgar",
     "47": "Byta Sängkläder"
   },
   "Follow": {

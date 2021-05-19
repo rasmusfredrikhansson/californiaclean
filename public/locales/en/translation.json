@@ -6,7 +6,7 @@
     "1": "Home Cleaning",    
     "2": "Spring Cleaning",
     "3": "Business Cleaning",    
-    "5": "Services & Prices",
+    "5": "Services and Prices",
     "6": "About Us"    
   },  
   "Try": {
@@ -19,9 +19,9 @@
   },
   "HowitWorks": {
     "1": "How does it work?",
-    "2": "We make it easy for you. You can simply book a cleaning Online or call us at",
-    "3": " 072-869 21 23 ",
-    "4": "and we will get back to you shortly. We are ready to start with the cleaning at the specified date we have agreed on. Later on our experts visit you regularly at the same time and same day as noted in your Cleaning-Profile."
+    "2": "We make it easy for you. You can simply book a cleaning Online, or call us at",
+    "3": " 072-869 21 23, ",
+    "4": "and we will get back to you as soon as possible. We are ready to start with the cleaning at the specified date we have agreed on. Later on, our experts visit you regularly at the same time and same day as noted in your Cleaning-Profile."
   },
   "WhyHomeCleaning": {
     "1": "Home cleaning",
@@ -46,12 +46,13 @@
     "71": "First 7 hours 100 kr/ hour",
     "72": "First 4 hours 100 kr/ hour",
     "73": "Discount:",
-    "74": "Deep Cleaning without subscription, great for a test cleaning!",
+    "74": "Deep Cleaning without subscription",
+    "75": "Great for a test cleaning!",
     "8": "One-Time Deep Cleaning",
     "88": "230 kr/ hour*",
     "9": "Move-In&Out Cleaning",
     "99": "240 kr/ hour*",
-    "10": "After Construction Cleaning",
+    "10": "After Construction",
     "101": "250 kr/ hour*",
     "11": "Weekend Cleaning",
     "111": "260 kr/ hour*",
@@ -69,10 +70,10 @@
     "23": "Business Cleaning",
     "22": "344 kr/ hour",
     "24": "Exclusive VAT",
-    "25": "1st-Time (Deep Cleaning) for a Fabulous Price",
+    "25": "1st-Time (Deep) Cleaning for a Fabulous Price",
     "26": "Only for new customers",
     "27": "Optional Windows",
-    "28": "Optional Windows, Cupboards inside, Oven or Fridge inside",
+    "28": "Optional Windows, Cupboards inside and outside",
     "29": "235 kr/ hour*",
     "30": "Optional Windows, Cupboards Inside/Outside, Oven or Fridge",
     "32": "Viewing Cleaning",
@@ -82,16 +83,17 @@
     "36": "230 kr/ hour*",
     "37": "Optional Windows, Oven or Fridge inside",
     "38": "Recommended twice per year",
-    "39": "Services & Prices"
+    "39": "Services and Prices",
+    "40": "Oven or Fridge inside, Patio Cleaning"
   },
   "CleaningProfile": {
     "1": "My Cleaning Profile",
     "2": "Together we agree on what should be included in your Cleaning-Profile. With every cleaning occasion, the same cleaning expert will come out to do the assignment. In our cleaning package, we always use eco-friendly products and towels as we care for the environment both inside and outside your home.",
     "3": "You can book a cleaning",
-    "4": " Mon - Fri 8:00-19:00",    
+    "4": " Mon - Fri 7:30-19:00",    
     "5": "NEW",
     "6": "Weekend Cleaning",
-    "7": " Sat - Sun 9:00-18:00",
+    "7": " Sat - Sun 9:00-17:00",
     "8": "(additional charges apply)",
     "9": "+15kr/ hr"
   },
@@ -162,15 +164,15 @@
     "34": "Sofa & Chairs vacuuming",
     "35": "Removing Door fingerprints",
     "36": "Window Sills & Baseboards",
-    "37": "Furniture & Mini Blinds dusted",
+    "37": "Dusting of Furniture",
     "38": "Floors (vacuumed and washed)",
     "40": "AVAILABLE TASKS",
     "41": "ADDITIONAL CHARGE",
     "42": "Patio Cleaning",
-    "43": "Oven inside",
+    "43": "Emptying Dishwasher",
     "44": "Window washing",
     "45": "Kitchen Cabinets outside",
-    "46": "Refrigerator & Freezer inside",
+    "46": "Emptying Trash cans",
     "47": "Changing Bed Sheets"
   },
   "Follow": {
