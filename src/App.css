@@ -189,7 +189,7 @@ a:hover {
   letter-spacing: 1px;
   text-align: left;
   color: white;
-  margin-top: 130px;
+  margin-top: 80px;
 }
 .flexBox5 h2 span {
   position: relative;
@@ -239,8 +239,8 @@ a:hover {
 .flexBox5 h6 {
   text-align: center;
   font-size: 36px;
-  margin-top: 60px;
-  margin-bottom: 100px;
+  margin-top: 80px;
+
   color: white;
 }
 
@@ -797,7 +797,7 @@ abbr[title] {
     font-size: 26px;
     margin-bottom: 5px;
     line-height: 1.7rem;
-    margin-top: 100px;
+    margin-top: 50px;
     letter-spacing: 0;
     padding: 0 0 0 0px;
   }
@@ -834,6 +834,8 @@ abbr[title] {
     margin-top: 0px;
     margin-left: 5px;
     margin-right: 5px;
+    line-height: 0.9rem;
+    padding: 0;
   }
 
   .flexBox3 {

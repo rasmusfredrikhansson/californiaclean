@@ -49,7 +49,7 @@ const ContactForm = (props) => {
           <input className="input-box" type="hidden" name="date" value={props.contactDate} />
           <input className="input-box" type="hidden" name="time" value={props.contactTime} />
           <input className="input-box" type="tel" placeholder={t('Booking.5')} name="telephone" required="required" />
-          <input className="input-box" type="email" placeholder={t('Booking.6')} name="email_adress" required="required" />
+          <input className="input-box" type="number" placeholder={t('Booking.6')} name="squaremeters" required="required" />
           <input className="input-box" type="text" placeholder={t('Booking.7')} name="adress" required="required" />
           <input className="input-box" type="text" placeholder={t('Booking.8')} name="postadress" required="required" />
           <button className="send-form" type="submit">{t('Booking.3')}</button>
