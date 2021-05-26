@@ -10,7 +10,7 @@
     "6": "About Us"    
   },  
   "Try": {
-    "1": "First-Time Cleaning",
+    "1": "First -Time Cleaning",
     "2": "100kr per hour",
     "25": "Learn More About Prices",
     "3": "072-869 21 23",
@@ -21,12 +21,12 @@
     "1": "How does it work?",
     "2": "We make it easy for you. You can simply book a cleaning Online, or call us at",
     "3": " 072-869 21 23, ",
-    "4": "and we will get back to you as soon as possible. We are ready to start with the cleaning at the specified date we have agreed on. Later on, our experts visit you regularly at the same time and same day as noted in your Cleaning-Profile."
+    "4": "and we will get back to you as soon as possible. We are ready to start with the cleaning at the specified date we have agreed on. Later, our Experts visit you regularly at the same time and same day as noted in your Cleaning-Profile."
   },
   "WhyHomeCleaning": {
     "1": "Home cleaning",
     "2": "We believe that modern people and families need cleaning help to have a little extra time in their everyday life.",
-    "3": "To come to a professionally cleaned home that smells good is always a great feeling. Those spots that you don't have time for or are difficult to reach will be removed. We have the experience to do a high quality cleaning job, thoroughly and safely. We clean, you simply enjoy."
+    "3": "To come to a professionally cleaned home that smells good is always a great feeling. Those spots that you do not have time for or are difficult to reach will be removed. We have the experience to do a high quality-cleaning job, thoroughly and safely. We clean, you simply enjoy."
   },
   "Pricing": {
     "1": "Spring Cleaning",
@@ -99,24 +99,24 @@
   },
   "Services": {
     "1": "Services",
-    "2": "Our California Clean experts are professionally trained in modern cleaning. We cover all cleaning needs for your home and if there is something extra that is not standard like emptying the dishwasher, you can always add as an additional service.",
+    "2": "Our California Clean Experts are professionally trained in modern cleaning. We cover all cleaning needs for your home and if there is something extra that is not standard like emptying the dishwasher, you can always add as an additional service.",
     "3": "We excel in services ranging from one-time cleaning, regular cleaning, deep cleaning, windows washing, kitchen cleaning, spring cleaning, Christmas cleaning as well as moving cleaning and post construction cleaning."
   },
   "Work": {
     "1": "Work with us",
-    "2": "Want to work with California Clean, you are welcome to contact us. We train personell in professional cleaning and services.",    
+    "2": "Want to work with California Clean, you are welcome to contact us. We train personnel in professional cleaning and services.",    
     "3": "All our staff members will go through a rigorous training with everything from material knowledge and furniture care to the use of cleaning products, clothing care and special equipment."
   },
   "RegularCleaning": {
     "1": "Regular Cleaning",
     "2": "The best way to keep your home nice and freshly clean is a routine. Weekly cleaning is therefore our most popular option.",
-    "22": "We focus on what's unique about every company and customize the cleaning based on furniture, decorations and other details.",
+    "22": "We focus on what is unique about every company and customize the cleaning based on furniture, decorations and other details.",
     "3": "Weekly, bi-weekly, every 3 or 4 weeks",
     "33": "bi-weekly, every three weeks or on a monthly basis."    
   },
   "SpringCleaning": {
     "1": "Spring Cleaning",
-    "2": "Spring Cleaning is essentially a Deep Cleaning and can be performed year around. Doing a thorough home spring cleaning has a number of health benefits. A clean home can strenghten your immune system and help you avoid illnesses. Cleaning everything entirely from dust, stains, dirt and bacteria also influence your living with a positive energy and a comfortable atmosphere.",
+    "2": "Spring Cleaning is essentially a Deep Cleaning and can be performed year around. Doing a thorough home spring cleaning has several health benefits. A clean home can strengthen your immune system and help you avoid illnesses. Cleaning everything entirely from dust, stains, dirt, and bacteria also influence your living with a positive energy and a comfortable atmosphere.",
     "3": "Now after winter our Tip is to start with a Windows wash to get that extra shiny feeling in your home.",
     "4": "Read More"
   },
@@ -130,7 +130,7 @@
     "3": "We work in Sollentuna, Täby, Sundbyberg, Danderyd, Järfälla, Solna, Bromma, Edsberg, Sjöberg and Enebyberg"
   },
   "ComfortWith": {
-    "1": "You'll have comfort with:",
+    "1": "You will have comfort with:",
     "2": "Fixed cleaning schedule",
     "3": "Same person on every occasion",
     "4": "Privacy agreement between provider and client",
@@ -138,7 +138,7 @@
     "6": "Flexibility to cancel or postpone 72 hours before a booked cleaning occasion"
   },
   "Included": {
-    "01": "What's included in my Cleaning-Profile:",
+    "01": "What is included in my Cleaning-Profile:",
     "10": "KITCHEN",
     "11": "Washing Sink",
     "12": "Ovens outside",
@@ -155,7 +155,7 @@
     "24": "Mirrors",
     "25": "Shower",
     "26": "Vanity Tops",
-    "27": "Focets & Basins",
+    "27": "Faucets & Basins",
     "28": "Floors (vacuumed and washed)",
     "30": "ROOMS",
     "31": "Polishing Mirrors",
@@ -163,7 +163,7 @@
     "33": "Light Fixtures fingerprints",
     "34": "Sofa & Chairs vacuuming",
     "35": "Removing Door fingerprints",
-    "36": "Window Sills & Baseboards",
+    "36": "Windowsills & Baseboards",
     "37": "Dusting of Furniture",
     "38": "Floors (vacuumed and washed)",
     "40": "AVAILABLE TASKS",
@@ -180,8 +180,8 @@
   },
   "Contact": {
     "1": "Get in touch with us today",
-    "2": "We will help you",
-    "3": "Leave your information below and we'll get back to you within 45 minutes.",
+    "2": "We will help you!",
+    "3": "Leave your information below and we will get back to you.",
     "4": "Your Name",
     "5": "Telephone",
     "6": "Property square meters",
@@ -216,7 +216,8 @@
     "7": "Business Cleaning",
     "8": "Business Cleaning",
     "9": "CONTACT",
-    "10": "Viewing Cleaning"
+    "10": "Viewing Cleaning",
+    "11": "Org. Number: 750918-7840"
   },
   "ThankYou": {
     "1": "Thank you!",

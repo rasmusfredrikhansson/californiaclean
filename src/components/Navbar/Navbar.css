@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap"); */
 
 .logo {
   height: 30px;
@@ -20,6 +20,7 @@ header {
 }
 .logotype h4 {
   font-family: "Pacifico", cursive;
+  font-size: 33px;
 }
 
 nav {
@@ -74,7 +75,7 @@ nav li {
     margin-top: 15px;
   }
   .logotype h4 {
-    font-size: 22px !important;
+    font-size: 33px !important;
   }
 
   .navigation {

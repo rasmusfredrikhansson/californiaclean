@@ -48,7 +48,7 @@ const Email = () => {
         
         <div className="email_options">
         <div style={{marginBottom: "5px", marginLeft: "10px"}}>
-          <small>{t('Contact.15')}</small>
+          <small style={{color: "grey"}}>{t('Contact.15')}</small>
         </div>
 
         <div>

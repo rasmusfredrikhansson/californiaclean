@@ -3,21 +3,21 @@
   height: 30px;
   border-radius: 50px;
   margin-right: 15px;
-  background-image: linear-gradient(aqua, skyblue);
+  /* background-image: linear-gradient(aqua, skyblue); */
+  background-image: linear-gradient(rgb(47, 65, 122), rgb(69, 69, 172));
   position: relative;
   cursor: pointer;
 }
 
 .toggle.en {
-  background-image: linear-gradient(blue, skyblue);
+  background-image: linear-gradient(rgb(69, 69, 172));
 }
 
 .notch {
   height: 26px;
   width: 26px;
   border-radius: 50%;
-  background-color: yellow;
-  box-shadow: 0 0 5px yellow;
+  background-color: #fffd6f;
   position: absolute;
   top: 2px;
   left: 4px;
@@ -25,8 +25,7 @@
 }
 
 .en > .notch {
-  background-color: red;
-  box-shadow: 0 0 5px red;
+  background-color: rgb(255, 23, 110);
   transform: translate(19px, 0);
 }
 
@@ -36,5 +35,5 @@
   position: relative;
   bottom: 29px;
   left: 0px;
-  color: rgb(255, 23, 110);
+  color: #623f4c;
 }

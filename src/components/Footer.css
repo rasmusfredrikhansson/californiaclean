@@ -7,7 +7,7 @@
 
   overflow: hidden;
   padding-top: 80px;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
 }
 .footer ul {
   list-style: none;
@@ -74,6 +74,9 @@ ul.services {
   height: 300px;
   cursor: pointer;
 }
+.footer-logo p {
+  font-size: 13px;
+}
 
 .contact {
   text-align: right;
@@ -96,6 +99,10 @@ ul.contact h3 {
     align-items: stretch;
     height: auto;
     padding-top: 40px;
+  }
+
+  .footer-logo p {
+    margin-bottom: 20px;
   }
 
   ul.services {

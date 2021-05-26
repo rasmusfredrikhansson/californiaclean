@@ -22,7 +22,7 @@
     "1": "Hur funkar det?",
     "2": "Vi gör det lätt för dig. Du kan helt enkelt boka din städning Online, eller så ringer du oss på",
     "3": " 072-869 21 23, ",
-    "4": "och vi återkommer till er så snart som möjligt. Vi är redo att börja städningen på det datum vi tillsammans bestämt. Senare besöker våra experter dig regelbundet vid samma tid och dag som även är noterat i din Städprofil."
+    "4": "och vi återkommer till er så snart som möjligt. Vi är redo att börja städningen på det datum vi tillsammans bestämt. Senare besöker våra Experter dig regelbundet vid samma tid och dag som även är noterat i din Städprofil."
   },
   "WhyHomeCleaning": {
     "1": "Hemstädning",
@@ -89,7 +89,7 @@
   },
   "CleaningProfile": {
     "1": "Min Städprofil",
-    "2": "Vi kommer tillsammans överens om vad som ska ingå i din Städprofil. Vid varje tillfälle kommer samma städexpert ut för att utföra uppraget. I vårt städpaket ingår alltid miljövänliga rengöringsprodukter samt handdukar för vi värnar om miljön både innanför och utanför dina dörrar.",
+    "2": "Vi kommer tillsammans överens om vad som ska ingå i din Städprofil. Vid varje tillfälle kommer samma Städexpert ut för att utföra uppraget. I vårt städpaket ingår alltid miljövänliga rengöringsprodukter samt handdukar för vi värnar om miljön både innanför och utanför dina dörrar.",
     "3": "Du kan boka en städning",
     "4": " Mån - Fre  7:30-19:00",
     "5": "Nytt",
@@ -100,13 +100,13 @@
   },
   "Services": {
     "1": "Tjänster",
-    "2": "Våra California Clean experter har utbildning inom modern städteknik. I princip så täcker vi alla dina städbehov hemma och är det något som inte är standard som t.ex tömma diskmaskinen går det alltid att lägga till som en tilläggstjänst.",
+    "2": "Våra California Clean Experter har utbildning inom modern städteknik. I princip så täcker vi alla dina städbehov hemma och är det något som inte är standard som t.ex tömma diskmaskinen går det alltid att lägga till som en tilläggstjänst.",
     "3": "Vi är främst inom tjänster som engångsstädning, regelbunden städning, storstädning, fönsterputs, köksstädning, vårstädning, Julstädning, samt flyttstädning och renoveringsstädning."
   },
   "Work": {
     "1": "Personalutbildning",
     "2": "Vill du jobba med California Clean, vänligen kontakta oss. Vi tränar personal i profesionell städning och tjänster.",    
-    "3": "Alla städexperter genomgår en omfattande utbildning med allt från materialkunskap och möbelvård till användning av städprodukter klädvård och specialutrustning."
+    "3": "Alla Städexperter genomgår en omfattande utbildning med allt från materialkunskap och möbelvård till användning av städprodukter klädvård och specialutrustning."
   },
   "RegularCleaning": {
     "1": "Regelbunden städning",
@@ -179,8 +179,8 @@
   },
   "Contact": {
     "1": "Kontakta oss idag",
-    "2": "Vi hjälper dig",
-    "3": "Lämna din information nedan så återkommer vi till dig inom 45 minuter.",
+    "2": "Vi hjälper dig!",
+    "3": "Lämna din information nedan så återkommer vi till dig.",
     "4": "Ditt Namn",
     "5": "Telefonnummer",
     "6": "Antal Kvadratmeter",
@@ -215,7 +215,8 @@
     "7": "Företagsstädning",
     "8": "Företagsstädning",
     "9": "KONTAKT",
-    "10": "Visningsstädning"
+    "10": "Visningsstädning",
+    "11": "Org. Nummer: 750918-7840"
   },
   "ThankYou": {
     "1": "Tack!",
