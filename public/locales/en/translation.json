@@ -26,7 +26,7 @@
   "WhyHomeCleaning": {
     "1": "Home cleaning",
     "2": "We believe that modern people and families need cleaning help to have a little extra time in their everyday life.",
-    "3": "To come to a professionally cleaned home that smells good is always a great feeling. Those spots that you do not have time for or are difficult to reach will be removed. We have the experience to do a high quality-cleaning job, thoroughly and safely. We clean, you simply enjoy."
+    "3": "To come to a professionally cleaned home that smells good is always a great feeling. Those spots that you do not have time for or are difficult to reach will be removed. We have the experience to do a high-quality cleaning job, thoroughly and safely. We clean, you simply enjoy."
   },
   "Pricing": {
     "1": "Spring Cleaning",
@@ -204,7 +204,14 @@
     "5": "Telephone Number",
     "6": "Square Meters",
     "7": "Street Address",
-    "8": "Zip Code and City"
+    "8": "Zip Code and City",
+    "9": "Spring + Regular Cleaning",
+    "10": "One-Time Home Cleaning",
+    "11": "Window Washing",
+    "12": "Moving Cleaning",
+    "13": "Viewing Cleaning",
+    "14": "After Construction Cleaning",
+    "15": "Business Cleaning"
   },
   "FooterServices": {
     "1": "SERVICES",

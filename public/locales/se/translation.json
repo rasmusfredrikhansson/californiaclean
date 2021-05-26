@@ -203,7 +203,14 @@
     "5": "Telefonnummer",
     "6": "Kvadratmeter",
     "7": "Gatuadress",
-    "8": "Postadress"
+    "8": "Postadress",
+    "9": "Vårstädning + Regelbunden Städning",
+    "10": "En-Gångs Hemstädning",
+    "11": "Fönstertvätt",
+    "12": "Flyttstädning",
+    "13": "Visningsstädning",
+    "14": "Renoveringstädning",
+    "15": "Företagsstädning"
   },
   "FooterServices": {
     "1": "TJÄNSTER",
