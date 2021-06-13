@@ -198,6 +198,8 @@ const App = () => {
           {/* One Time Home Cleaning */}
           <h2 id="homecleaning" style={{marginBottom: "0px", fontSize: "32px", textAlign: "center", color: "white"}}>{t('Pricing.7')}</h2>
           <h2 style={{marginTop: "0px", color: "#fffd6f", fontSize: "24px", textAlign: "center", marginBottom: "14px"}}>{t('Pricing.77')}</h2>
+          
+          <p>{t('Pricing.72')}</p>
           <p>{t('Pricing.74')}</p>         
           <p>{t('Pricing.75')}</p>          
           <p>{t('Pricing.37')}</p>
@@ -212,7 +214,7 @@ const App = () => {
           
           {/* <p><strong>{t('Pricing.73')}</strong> {t('Pricing.72')}</p>                 */}
           
-                  
+          <p>{t('Pricing.72')}</p>       
           <p>{t('Pricing.28')}</p>
           <p>{t('Pricing.40')}</p>           
           <p>{t('Pricing.4')}</p>          
